@@ -1,0 +1,2450 @@
+[
+  {
+    "text": "Ordered these for my son's remote control truck. Put them in both trucks and within a week the batteries in both trucks exploded, ruining both of them. So not only am I out the money I spent on the batteries I have to buy a new truck that costs 50. Spend the extra money and buy Duracell!",
+    "rating": 1,
+    "sentiment": "NEGATIVE",
+    "product": "AmazonBasics AAA Performance Alkaline Batteries (36 Count)",
+    "cluster": "Batteries & Household",
+    "confidence": 0.999
+  },
+  {
+    "text": "I ordered a ton of these for holiday candle lights. They are in for 6 hours each night and turn off on a timer. We are 15 days in and every single candle (34 of them) is so dim you can barely see them.Expected to get far more life out of these. Do not recommend.",
+    "rating": 1,
+    "sentiment": "NEGATIVE",
+    "product": "AmazonBasics AAA Performance Alkaline Batteries (36 Count)",
+    "cluster": "Batteries & Household",
+    "confidence": 0.999
+  },
+  {
+    "text": "Had it for about a week and now it won't take charge, tried new chargers and still not taking charge. Happy with tablet but unhappy about not chatging",
+    "rating": 2,
+    "sentiment": "NEGATIVE",
+    "product": "Fire HD 8 Tablet with Alexa, 8 HD Display, 16 GB, Tangerine - with Special Offer",
+    "cluster": "Fire Tablets",
+    "confidence": 0.999
+  },
+  {
+    "text": "Having looked elsewhere for this product and found them really expensive, found this on Amazon at a fantastic price and was really pleased with it.",
+    "rating": 5,
+    "sentiment": "POSITIVE",
+    "product": "AmazonBasics 15.6-Inch Laptop and Tablet Bag",
+    "cluster": "Accessories",
+    "confidence": 0.999
+  },
+  {
+    "text": "This review can not be valid due to the device did not work for me. I would put it down. Just upgraded to the ECHO instead of the tap.",
+    "rating": 1,
+    "sentiment": "NEGATIVE",
+    "product": "Amazon Tap Smart Assistant Alexaenabled (black) Brand New",
+    "cluster": "Smart Speakers",
+    "confidence": 0.999
+  },
+  {
+    "text": "They do not last very long.",
+    "rating": 2,
+    "sentiment": "NEUTRAL",
+    "product": "AmazonBasics AAA Performance Alkaline Batteries (36 Count)",
+    "cluster": "Batteries & Household",
+    "confidence": 0.974
+  },
+  {
+    "text": "BETTER THAN NOTHING, But not as good as the CASE LOGIC: ELS-111 11 Chromebook/Surface 3 Sleeve. Fits the MacAir 11.6 perfect. The Amazon sleeve is simply neoprene, which snags and has so much friction, it doesn't easily slide in/out of my backpack. The Amazon quality is decent, but looks like a beer can cozy (koozie) compared to the CASE LOGIC. The CASE LOGIC IS NOT just NEOPRENE! It is highly protective, light, low density foam encased in canvas. It's more durable and slide in and out of my bac",
+    "rating": 3,
+    "sentiment": "NEUTRAL",
+    "product": "AmazonBasics 11.6-Inch Laptop Sleeve",
+    "cluster": "Accessories",
+    "confidence": 0.989
+  },
+  {
+    "text": "The two guard stops at the bottom are WAY TOO HIGH. They dig into my wrists are are painful after only 5 minutes.Everything else about the stand is excellent for a 13 laptop. It'll only work if you use an extended keyboard.Impossible to type directly on the laptop b/c of poor design. The guards just need to be brought down and 1/2 their size and this would be perfect.",
+    "rating": 2,
+    "sentiment": "NEUTRAL",
+    "product": "AmazonBasics Ventilated Adjustable Laptop Stand",
+    "cluster": "Accessories",
+    "confidence": 0.913
+  },
+  {
+    "text": "Amazing tablet with fast processor. It looks great... got good deal",
+    "rating": 5,
+    "sentiment": "POSITIVE",
+    "product": "Fire HD 8 Tablet with Alexa, 8 HD Display, 16 GB, Tangerine - with Special Offer",
+    "cluster": "Fire Tablets",
+    "confidence": 0.999
+  },
+  {
+    "text": "I I thought the buy For my child bc the kids mode but it was very poor",
+    "rating": 1,
+    "sentiment": "NEGATIVE",
+    "product": "Fire Tablet, 7 Display, Wi-Fi, 16 GB - Includes Special Offers, Black",
+    "cluster": "Fire Tablets",
+    "confidence": 0.999
+  },
+  {
+    "text": "Th size difference is noticeable and squarish rather then rectangular, which I prefer. The Kindle unit itself is rather nice, the auto rotate and adjust being the best part. I returned this item b/c the cover is flimsy. and I was afraid I would drop it and break the kindle.",
+    "rating": 3,
+    "sentiment": "NEUTRAL",
+    "product": "Kindle Oasis E-reader with Leather Charging Cover - Merlot, 6 High-Resolution Di",
+    "cluster": "E-Readers",
+    "confidence": 0.994
+  },
+  {
+    "text": "I couldn't decide on which one to buy. They all do the same things, but ended up buying the tap which is portable. I take it on my deck with a cup of coffee and listen to the music I put in through pandora and iheart radio. I absolutely love it, and so does my husband.",
+    "rating": 5,
+    "sentiment": "POSITIVE",
+    "product": "Amazon Tap Smart Assistant Alexaenabled (black) Brand New",
+    "cluster": "Smart Speakers",
+    "confidence": 0.999
+  },
+  {
+    "text": "Good for beginners. Although you need to have a google account and a credit card to start up. For reading purposes only.",
+    "rating": 3,
+    "sentiment": "NEUTRAL",
+    "product": "All-New Fire HD 8 Tablet with Alexa, 8 HD Display, 16 GB, Marine Blue - with Spe",
+    "cluster": "Fire Tablets",
+    "confidence": 0.797
+  },
+  {
+    "text": "Super easy to use and very gentle on your eyes, I've tried many e-readers but I'll definitely stick to this one.",
+    "rating": 5,
+    "sentiment": "POSITIVE",
+    "product": "Kindle E-reader - White, 6 Glare-Free Touchscreen Display, Wi-Fi - Includes Spec",
+    "cluster": "E-Readers",
+    "confidence": 0.998
+  },
+  {
+    "text": "Pros: Relatively easy to setup and works quite reliably. Cons: The mirror cast function didn't seem to work well displaying video while it was steaming to a Windows 10 laptop. Other Thoughts: This product was recommended to me by a coworker and I was skeptical at first, but the product has turned out to be what I now rely on for most of my entertainment access.",
+    "rating": 5,
+    "sentiment": "POSITIVE",
+    "product": "Fire TV Stick Streaming Media Player Pair Kit",
+    "cluster": "Media & Home",
+    "confidence": 0.996
+  },
+  {
+    "text": "This speaker's forte is it's drop and charge ability. It does connect with no issues to whatever you have it paired with. The sound quality though is ok...Def not very loud and lacks the lows. But for a small portable speaker which is not expensive I would recommend it.",
+    "rating": 4,
+    "sentiment": "NEUTRAL",
+    "product": "Amazon Tap Smart Assistant Alexaenabled (black) Brand New",
+    "cluster": "Smart Speakers",
+    "confidence": 0.728
+  },
+  {
+    "text": "Awesome.. Everything I need and more. I'm very happy with the tablet.I'm very happy.Thank you,Kathleen Stroyek",
+    "rating": 5,
+    "sentiment": "POSITIVE",
+    "product": "Fire Tablet with Alexa, 7 Display, 16 GB, Magenta - with Special Offers",
+    "cluster": "Fire Tablets",
+    "confidence": 0.999
+  },
+  {
+    "text": "We are unable to connect WIFI on this product. We have tried to follow the instructions to no avail. It is a useless and expensive item sitting on our table.",
+    "rating": 1,
+    "sentiment": "NEGATIVE",
+    "product": "Amazon Tap Smart Assistant Alexaenabled (black) Brand New",
+    "cluster": "Smart Speakers",
+    "confidence": 0.999
+  },
+  {
+    "text": "This product, while the speaker is great, fails to deliver with a voice interface. Use your cell phone or computer and buy an Echo Dot.",
+    "rating": 3,
+    "sentiment": "NEUTRAL",
+    "product": "Amazon Tap Smart Assistant Alexaenabled (black) Brand New",
+    "cluster": "Smart Speakers",
+    "confidence": 0.993
+  },
+  {
+    "text": "Bought this for my new Kindle since they no longer come with chargers. It's fast and can be used for my phone.",
+    "rating": 5,
+    "sentiment": "POSITIVE",
+    "product": "Amazon 9W PowerFast Official OEM USB Charger and Power Adapter for Fire Tablets ",
+    "cluster": "Accessories",
+    "confidence": 0.998
+  },
+  {
+    "text": "It's very tin sounding no bass sounds terrible bought a bose sound link and a amazon dot to hook up to it",
+    "rating": 1,
+    "sentiment": "NEGATIVE",
+    "product": "Amazon Tap Smart Assistant Alexaenabled (black) Brand New",
+    "cluster": "Smart Speakers",
+    "confidence": 0.999
+  },
+  {
+    "text": "I am happy as i bought it for reading and it is good.",
+    "rating": 5,
+    "sentiment": "POSITIVE",
+    "product": "Kindle E-reader - White, 6 Glare-Free Touchscreen Display, Wi-Fi - Includes Spec",
+    "cluster": "E-Readers",
+    "confidence": 0.998
+  },
+  {
+    "text": "While it seemed to work fine, the Tap does not have the open mic feature. While that can be best for some, I bought it as a gift and they would prefer one that listens. The Tap makes you press the mic button every time you wish to communicate with Alexa, which seems to defeat the purpose.",
+    "rating": 2,
+    "sentiment": "NEGATIVE",
+    "product": "Amazon Tap Smart Assistant Alexaenabled (black) Brand New",
+    "cluster": "Smart Speakers",
+    "confidence": 0.969
+  },
+  {
+    "text": "It is a good little hard case to protect your external hard drives",
+    "rating": 5,
+    "sentiment": "POSITIVE",
+    "product": "AmazonBasics External Hard Drive Case",
+    "cluster": "Media & Home",
+    "confidence": 0.993
+  },
+  {
+    "text": "We were so excited to get the tap since it was a larger speaker than the dot and unlike the echo has a battery charger with it to make it portable. We already have an echo which works perfectly in our home. When listening to online radio on the tap it cut in and out constantly. We returned it and exchanged gor the dot.",
+    "rating": 1,
+    "sentiment": "NEGATIVE",
+    "product": "Amazon Tap Smart Assistant Alexaenabled (black) Brand New",
+    "cluster": "Smart Speakers",
+    "confidence": 0.997
+  },
+  {
+    "text": "This is a very basic, functional backpack that does the job that it when designed for. Unlike other, more expensive models, this one does not have the feel or look of something that you would show off to your friends. However, it holds my 16 laptop quite well and has enough pockets to contain all of my usual travel gear. The material seems to be fairly durable but it makes a crinkly sound when touched or moved. This would be a good choice for a teenager who is hard on his belongings.",
+    "rating": 4,
+    "sentiment": "POSITIVE",
+    "product": "AmazonBasics Backpack for Laptops up to 17-inches",
+    "cluster": "Accessories",
+    "confidence": 0.997
+  },
+  {
+    "text": "Zipper on front kept coming apart. Since this opens to the base of the backpack, I almost lost an item. Double check this when you get it give it a few solid tugs",
+    "rating": 3,
+    "sentiment": "NEUTRAL",
+    "product": "AmazonBasics Backpack for Laptops up to 17-inches",
+    "cluster": "Accessories",
+    "confidence": 0.954
+  },
+  {
+    "text": "My initial impression of this was very good. The material is nicer than the shiny stuff on my Hama CD binders and the netting trim gives a nice appearance compared to plain look of most budget CD binders.There are 50 pages with 8 disc pockets each (4 per side) giving a total of 400 capacity. The pages are hung from the spine in two groups of 25. By that I mean that 25 pages all have a single attachment point to the plastic spine.This is where the first problem with this binder lies. Because each",
+    "rating": 2,
+    "sentiment": "NEUTRAL",
+    "product": "AmazonBasics Nylon CD/DVD Binder (400 Capacity)",
+    "cluster": "Media & Home",
+    "confidence": 0.986
+  },
+  {
+    "text": "The Kindle is great for just reading books, and the battery power is pretty good.The experimental browser is not very user friendly.",
+    "rating": 3,
+    "sentiment": "NEUTRAL",
+    "product": "Kindle Voyage E-reader, 6 High-Resolution Display (300 ppi) with Adaptive Built-",
+    "cluster": "E-Readers",
+    "confidence": 0.968
+  },
+  {
+    "text": "I gave this Amazon charger only four stars, because even though it does a great job of charging my new Paperwhite quickly it should be included with the reader and not sold separately.",
+    "rating": 4,
+    "sentiment": "NEUTRAL",
+    "product": "Amazon 9W PowerFast Official OEM USB Charger and Power Adapter for Fire Tablets ",
+    "cluster": "Accessories",
+    "confidence": 0.746
+  },
+  {
+    "text": "This Kindle makes reading even more enjoyable. Very light in the hand, amazing back light. Very highly recommended.",
+    "rating": 5,
+    "sentiment": "POSITIVE",
+    "product": "Kindle Voyage E-reader, 6 High-Resolution Display (300 ppi) with Adaptive Built-",
+    "cluster": "E-Readers",
+    "confidence": 0.999
+  },
+  {
+    "text": "Bought it in order to watch NBC but the NBC app isn't compatible, so now I have a paperweight.",
+    "rating": 2,
+    "sentiment": "NEGATIVE",
+    "product": "All-New Fire HD 8 Tablet, 8 HD Display, Wi-Fi, 16 GB - Includes Special Offers, ",
+    "cluster": "Fire Tablets",
+    "confidence": 0.999
+  },
+  {
+    "text": "I bought this for my 2-year old. She liked it for the first few days and then she went back to playing with my ipad. If I hadn't already introduce her to the ipad, I think she would have been fine with this.",
+    "rating": 3,
+    "sentiment": "NEUTRAL",
+    "product": "Fire Kids Edition Tablet, 7 Display, Wi-Fi, 16 GB, Pink Kid-Proof Case",
+    "cluster": "Fire Tablets",
+    "confidence": 0.993
+  },
+  {
+    "text": "I read the review that says it is NOT like the one pictured, and as far as my order goes, that is a false statement. The case is EXACTLY like the ones Amazon offers, just cheaper and with free shipping. Perfect deal. I can't complain.",
+    "rating": 5,
+    "sentiment": "POSITIVE",
+    "product": "AmazonBasics External Hard Drive Case",
+    "cluster": "Media & Home",
+    "confidence": 0.998
+  },
+  {
+    "text": "Batteries. Standard AA kind. We use them everyday. They power many things and these work as good or better than any others.",
+    "rating": 5,
+    "sentiment": "POSITIVE",
+    "product": "AmazonBasics AAA Performance Alkaline Batteries (36 Count)",
+    "cluster": "Batteries & Household",
+    "confidence": 0.999
+  },
+  {
+    "text": "I found that I was immediately sked by a staff member if I needed help. I received good advice and shown similar alternative products. What I bought was perfect for what I wanted. The price was quite reasonable.",
+    "rating": 5,
+    "sentiment": "POSITIVE",
+    "product": "Amazon 9W PowerFast Official OEM USB Charger and Power Adapter for Fire Tablets ",
+    "cluster": "Accessories",
+    "confidence": 0.996
+  },
+  {
+    "text": "I purchased this wall charger because I have had issues with Samsung and other Kindle chargers. So far, this charger is great. Devices charge rapidly.",
+    "rating": 5,
+    "sentiment": "POSITIVE",
+    "product": "Amazon 9W PowerFast Official OEM USB Charger and Power Adapter for Fire Tablets ",
+    "cluster": "Accessories",
+    "confidence": 0.998
+  },
+  {
+    "text": "As advised. Came really fast",
+    "rating": 5,
+    "sentiment": "NEGATIVE",
+    "product": "AmazonBasics 16-Gauge Speaker Wire - 100 Feet",
+    "cluster": "Media & Home",
+    "confidence": 0.951
+  },
+  {
+    "text": "I was not overly impressed with this system. I didn't realize you have to buy Amazon prime in order to use the functions. It didn't connect easily to my phone. It wouldn't just stream music saved on my iPhone. I had to download a music app and then load my music into the app. It wouldn't work. Way too much work and added expenses in order to use. Wasn't happy with that so I returned it and purchased a jbl portable Bluetooth speaker.",
+    "rating": 2,
+    "sentiment": "NEGATIVE",
+    "product": "Amazon Tap Smart Assistant Alexaenabled (black) Brand New",
+    "cluster": "Smart Speakers",
+    "confidence": 0.997
+  },
+  {
+    "text": "Pros: I WOULD recommend anyone who was going to purchase anything , newegg is the BEST PLACE TO LOOK ! Cons: No compaints",
+    "rating": 5,
+    "sentiment": "POSITIVE",
+    "product": "Fire TV Stick Streaming Media Player Pair Kit",
+    "cluster": "Media & Home",
+    "confidence": 0.998
+  },
+  {
+    "text": "Pros- Feels Light weight even when stuffed fully. Perfect no. of compartments.Cons - Poor zipper quality, side ouch for water container is small.",
+    "rating": 3,
+    "sentiment": "NEUTRAL",
+    "product": "AmazonBasics Backpack for Laptops up to 17-inches",
+    "cluster": "Accessories",
+    "confidence": 0.903
+  },
+  {
+    "text": "These batteries do not last or work well. Spend the extra buck and buy Duracell.",
+    "rating": 1,
+    "sentiment": "NEGATIVE",
+    "product": "AmazonBasics AAA Performance Alkaline Batteries (36 Count)",
+    "cluster": "Batteries & Household",
+    "confidence": 0.999
+  },
+  {
+    "text": "I bought one on Prime day for about 50 shipped and fell in love with it and wanted another one and found this on eBay. I have a Sonos with Alexa, which sounds amazing, but needs to be plugged in. This is a great, inexpensive, portable, AC/DC, great sounding Alexa speaker. I don't understand why it isn't more popular, given the 10 hr battery and all the features. easy to pair bluetooth, easy wifi setup, the Alexa app makes things simple.",
+    "rating": 4,
+    "sentiment": "POSITIVE",
+    "product": "Amazon Tap Smart Assistant Alexaenabled (black) Brand New",
+    "cluster": "Smart Speakers",
+    "confidence": 0.999
+  },
+  {
+    "text": "these batteries are just ok",
+    "rating": 5,
+    "sentiment": "NEUTRAL",
+    "product": "AmazonBasics AAA Performance Alkaline Batteries (36 Count)",
+    "cluster": "Batteries & Household",
+    "confidence": 0.994
+  },
+  {
+    "text": "I really liked the idea of having a device I could talk to out of nowhere that would answer (although our cells phones can do similarly, but you have to turn them on and press buttons, etc.). It is also gratifying to be able to tell a device to play music and it does.I was quite disappointed in the ability of Alexa to answer any serious questions. Jeff needs to pay to send his programmers back to search school. So many times Alexa says a phrase similar to I don't understand the questionSo basica",
+    "rating": 2,
+    "sentiment": "NEGATIVE",
+    "product": "Amazon Echo (1st Generationcertified) Color:White Free Shipping",
+    "cluster": "Smart Speakers",
+    "confidence": 0.999
+  },
+  {
+    "text": "I bought my Kindle because I heard it was good for reading in direct sunlight. I‚Äôve got a bay window I like to read at and other tablets I‚Äôve read on produce a lot of glare. This has zero glare and I can‚Äôt wait to take it camping this Spring/Summer/Fall. A side note, this is way lighter than any book (as you may have guessed). I like to read on my back and having this has drastically increased the amount of time I can read for.",
+    "rating": 5,
+    "sentiment": "POSITIVE",
+    "product": "Kindle E-reader - White, 6 Glare-Free Touchscreen Display, Wi-Fi - Includes Spec",
+    "cluster": "E-Readers",
+    "confidence": 0.998
+  },
+  {
+    "text": "It is a very handy device and I highly recommend it. I also enjoy using Alexa on it.",
+    "rating": 5,
+    "sentiment": "POSITIVE",
+    "product": "Amazon Tap Smart Assistant Alexaenabled (black) Brand New",
+    "cluster": "Smart Speakers",
+    "confidence": 0.998
+  },
+  {
+    "text": "These do not last nearly as long as a name brand battery. So considering the cost/benefit, i'm not really sure if they are any better",
+    "rating": 3,
+    "sentiment": "NEUTRAL",
+    "product": "AmazonBasics AA Performance Alkaline Batteries (48 Count) - Packaging May Vary",
+    "cluster": "Batteries & Household",
+    "confidence": 0.995
+  },
+  {
+    "text": "Pros: Very satisfied I am about buy online this side wonderful service good Quality seal pack and good packing Cons: Great Other Thoughts: I am satisfied thanks",
+    "rating": 5,
+    "sentiment": "POSITIVE",
+    "product": "Fire TV Stick Streaming Media Player Pair Kit",
+    "cluster": "Media & Home",
+    "confidence": 0.999
+  },
+  {
+    "text": "Not sure why, but it kept freezing and ended up having to return it. Very disappointing",
+    "rating": 2,
+    "sentiment": "NEGATIVE",
+    "product": "Fire Kids Edition Tablet, 7 Display, Wi-Fi, 16 GB, Pink Kid-Proof Case",
+    "cluster": "Fire Tablets",
+    "confidence": 0.999
+  },
+  {
+    "text": "they seem a bit hit-or-miss...had a few kinda crap out pretty quickly (way too quickly) on me when used in my young son's toys",
+    "rating": 3,
+    "sentiment": "NEUTRAL",
+    "product": "AmazonBasics AA Performance Alkaline Batteries (48 Count) - Packaging May Vary",
+    "cluster": "Batteries & Household",
+    "confidence": 0.994
+  },
+  {
+    "text": "I bought this after I bought the Amazon Echo. This was actually an impulse buy. I saw it and bought it not reading any reviews on it, because I enjoyed the echo so much. It does everything the Echo does, but the sound quality is not great. When you're playing at middle volume, it's ok. The lows are there but doesn't sound good. I'm guessing I'm comparing it with the Bose mini soundlink. When you set the volume high, the bass is almost non-existent. The mids and highs are loud with the louder vol",
+    "rating": 4,
+    "sentiment": "NEUTRAL",
+    "product": "Amazon Tap Smart Assistant Alexaenabled (black) Brand New",
+    "cluster": "Smart Speakers",
+    "confidence": 0.994
+  },
+  {
+    "text": "These are different than the ones pictured. Are these performance ones also",
+    "rating": 3,
+    "sentiment": "NEUTRAL",
+    "product": "AmazonBasics AA Performance Alkaline Batteries (48 Count) - Packaging May Vary",
+    "cluster": "Batteries & Household",
+    "confidence": 0.989
+  },
+  {
+    "text": "Was very difficult to set up. With the 3 hours help of Geek Squad and my granddaughters I-Phone we got it done.",
+    "rating": 5,
+    "sentiment": "NEGATIVE",
+    "product": "Amazon Tap Smart Assistant Alexaenabled (black) Brand New",
+    "cluster": "Smart Speakers",
+    "confidence": 0.954
+  },
+  {
+    "text": "Tried different charging blocks, nothing worked properly. Plugged in the Amazon block, Kindle came right up.",
+    "rating": 5,
+    "sentiment": "NEUTRAL",
+    "product": "Amazon 9W PowerFast Official OEM USB Charger and Power Adapter for Fire Tablets ",
+    "cluster": "Accessories",
+    "confidence": 0.932
+  },
+  {
+    "text": "Kind of disappointed that they did away with the included battery cover and also removed the ability to even connect a battery cover.",
+    "rating": 4,
+    "sentiment": "NEGATIVE",
+    "product": "All-New Kindle Oasis E-reader - 7 High-Resolution Display (300 ppi), Waterproof,",
+    "cluster": "E-Readers",
+    "confidence": 0.655
+  },
+  {
+    "text": "This is the third I have had to buy/ They seem to only work for a year before needing to be replaced. I have the warranty but no patience for the replacement to be mailed to me with all the forms.",
+    "rating": 4,
+    "sentiment": "NEGATIVE",
+    "product": "Amazon 9W PowerFast Official OEM USB Charger and Power Adapter for Fire Tablets ",
+    "cluster": "Accessories",
+    "confidence": 0.999
+  },
+  {
+    "text": "Pretty cool kids love it. Always adding things to my grocery list I didn't want.",
+    "rating": 4,
+    "sentiment": "POSITIVE",
+    "product": "Amazon Tap Smart Assistant Alexaenabled (black) Brand New",
+    "cluster": "Smart Speakers",
+    "confidence": 0.998
+  },
+  {
+    "text": "I have a regular echo and now the tap. Both awesome products, use them to control lights, locks, and play music. Would buy again.",
+    "rating": 5,
+    "sentiment": "POSITIVE",
+    "product": "Amazon Tap Smart Assistant Alexaenabled (black) Brand New",
+    "cluster": "Smart Speakers",
+    "confidence": 0.999
+  },
+  {
+    "text": "Put in my mouse for just 3 days. Power is off again.",
+    "rating": 3,
+    "sentiment": "NEUTRAL",
+    "product": "AmazonBasics AA Performance Alkaline Batteries (48 Count) - Packaging May Vary",
+    "cluster": "Batteries & Household",
+    "confidence": 0.989
+  },
+  {
+    "text": "I love that I can read all my books on here and search the internet!",
+    "rating": 5,
+    "sentiment": "POSITIVE",
+    "product": "All-New Fire HD 8 Tablet, 8 HD Display, Wi-Fi, 16 GB - Includes Special Offers, ",
+    "cluster": "Fire Tablets",
+    "confidence": 0.998
+  },
+  {
+    "text": "You get what you pay for here. These are cheap batteries and don't last very long, I'd spend the extra and get rechargeables.",
+    "rating": 1,
+    "sentiment": "NEGATIVE",
+    "product": "AmazonBasics AAA Performance Alkaline Batteries (36 Count)",
+    "cluster": "Batteries & Household",
+    "confidence": 0.999
+  },
+  {
+    "text": "Recently, I spent my hard earned money on a 13.3 Macbook Pro Mid 2012. I like to take care of my personal belongings, and this 1000 piece of machinery was no exception. So this began my search for a laptop sleeve. Wandering my local general stores (Wal-Mart, Target, Best Buy, etc.) I noticed a cheap laptop sleeve (as in cheap quality) was nearly 16! I was like HECK NO! So I jumped on Amazon (btw amazon is the best shoutout to all the hard workers running this website and service) and searched a ",
+    "rating": 5,
+    "sentiment": "POSITIVE",
+    "product": "AmazonBasics 11.6-Inch Laptop Sleeve",
+    "cluster": "Accessories",
+    "confidence": 0.994
+  },
+  {
+    "text": "I bought this thinking that I needed it but I didnt so it was a waste of money. I do so hate to waste money. the Kindle can hook to a regular cell phone charger and it comes with a cable that connects to the computer. For some reason I thought I just had to have this too when I bought my Kindle.",
+    "rating": 1,
+    "sentiment": "NEGATIVE",
+    "product": "Oem Amazon Kindle Power Usb Adapter Wall Travel Charger Fire/dx/+micro Usb Cable",
+    "cluster": "Accessories",
+    "confidence": 0.999
+  },
+  {
+    "text": "hard to use, and does not support Guam. online instructions not clear",
+    "rating": 1,
+    "sentiment": "NEGATIVE",
+    "product": "Amazon Tap Smart Assistant Alexaenabled (black) Brand New",
+    "cluster": "Smart Speakers",
+    "confidence": 0.999
+  },
+  {
+    "text": "Replaced a v1 nook but this is not better for reading",
+    "rating": 3,
+    "sentiment": "NEUTRAL",
+    "product": "Kindle Voyage E-reader, 6 High-Resolution Display (300 ppi) with Adaptive Built-",
+    "cluster": "E-Readers",
+    "confidence": 0.797
+  },
+  {
+    "text": "This is not an upgrade by any means! My three year old kindle outperformed Oasis.Battery life better than a week with the lights on lowest setting Magnetic connector is poorly designed and grows weak Two pieces to keep up with; unsnaps constantly Amazon Customer Services promises it will resolved in an update",
+    "rating": 1,
+    "sentiment": "NEGATIVE",
+    "product": "Kindle Oasis E-reader with Leather Charging Cover - Merlot, 6 High-Resolution Di",
+    "cluster": "E-Readers",
+    "confidence": 0.999
+  },
+  {
+    "text": "Got this as a gift for friend of mine they have been very happy with this can't believe how light it is and how well you can read the text. If you're up for him and don't want to be caring around an iPad or have battery life on the product while you're on location this is a must take with you product.",
+    "rating": 5,
+    "sentiment": "POSITIVE",
+    "product": "Kindle Voyage E-reader, 6 High-Resolution Display (300 ppi) with Adaptive Built-",
+    "cluster": "E-Readers",
+    "confidence": 0.998
+  },
+  {
+    "text": "I I thought the buy For my child bc the kids mode but it was very poor",
+    "rating": 1,
+    "sentiment": "NEGATIVE",
+    "product": "Fire Tablet with Alexa, 7 Display, 16 GB, Magenta - with Special Offers",
+    "cluster": "Fire Tablets",
+    "confidence": 0.999
+  },
+  {
+    "text": "This has great possibilities for the ARMCHAIR POTATO by expanding what is available to view. I would recommend this to anyone.",
+    "rating": 5,
+    "sentiment": "POSITIVE",
+    "product": "Amazon Fire TV Gaming Edition Streaming Media Player",
+    "cluster": "Media & Home",
+    "confidence": 0.998
+  },
+  {
+    "text": "Used it and looks very paper like. They integrated the simplest form of an e reader, which makes it stand out for its use.",
+    "rating": 5,
+    "sentiment": "POSITIVE",
+    "product": "Kindle E-reader - White, 6 Glare-Free Touchscreen Display, Wi-Fi - Includes Spec",
+    "cluster": "E-Readers",
+    "confidence": 0.998
+  },
+  {
+    "text": "Our 4 grand kids use these daily charge after charge sometimes .youngest is almost 3 oldest is 9 Just watch the charging cable connection easily broken if charging while using",
+    "rating": 4,
+    "sentiment": "POSITIVE",
+    "product": "Fire Kids Edition Tablet, 7 Display, Wi-Fi, 16 GB, Blue Kid-Proof Case",
+    "cluster": "Fire Tablets",
+    "confidence": 0.997
+  },
+  {
+    "text": "When I got my Kindle Fire, I got a protective cover for it and figured I'd be ok, because I don't travel much at all (am bedridden/disabled from car accidents). After a while, I couldn't get the mini-USB cord to stay in the plug on the Kindle. After describing the problem to Amazon, they sent me a new cord (I got the newer one with an AC plug and had to pay for it). Unfortunately this did not solve the problem, and I had to mail them my Kindle, and they shipped me a new one, configured mostly th",
+    "rating": 2,
+    "sentiment": "NEGATIVE",
+    "product": "Amazon Kindle Charger Power Adapter Wall Charger And Usb Cable Micro Usb Cord",
+    "cluster": "Accessories",
+    "confidence": 0.993
+  },
+  {
+    "text": "These test full charge while the ones i have been buying are already partially discharged bc u cannot tell how fresh they r, even when they are adv as good for 10 yrs.",
+    "rating": 5,
+    "sentiment": "POSITIVE",
+    "product": "AmazonBasics AAA Performance Alkaline Batteries (36 Count)",
+    "cluster": "Batteries & Household",
+    "confidence": 0.978
+  },
+  {
+    "text": "Since I purchased returned couple of times now is dead I have to return it again. My first problem didn't paired.",
+    "rating": 1,
+    "sentiment": "NEGATIVE",
+    "product": "Amazon Tap Smart Assistant Alexaenabled (black) Brand New",
+    "cluster": "Smart Speakers",
+    "confidence": 0.999
+  },
+  {
+    "text": "I bought the Kindle when I was in the USA but on my return to Australia I discovered I left the power adapter behind in my condo in the USA. For some reason Amazon cannot or will not mail a replacement cable to Australia so now I'm unable to re-charge my Kindle as the Micro USB cables available in Australia do not fit the Kindle as it is tiny compared to the ones available here.I would say this is one huge draw-back of this particular USB power adapter.Other than that it works great to re-charge",
+    "rating": 5,
+    "sentiment": "NEUTRAL",
+    "product": "Amazon Kindle Replacement Power Adapter (Fits Latest Generation Kindle and Kindl",
+    "cluster": "Accessories",
+    "confidence": 0.751
+  },
+  {
+    "text": "I accidentally cracked my screen on the first day when the Voyage was too close to my rocking chair and neither Best Buy nor Amazon would do anything to help. Well, Amazon offered $15 off purchasing the Paperwhite and that wasn't something I wanted at all. Now I'm stuck with a $199 broken Voyage. Not a happy customer. I realize it was my fault but thought they should do something more to minimize the loss and keep my business.",
+    "rating": 2,
+    "sentiment": "NEGATIVE",
+    "product": "Kindle Voyage E-reader, 6 High-Resolution Display (300 ppi) with Adaptive Built-",
+    "cluster": "E-Readers",
+    "confidence": 0.999
+  },
+  {
+    "text": "Case is well made and fits my WD Passport drive perfectly with enough room for the usb cable.",
+    "rating": 5,
+    "sentiment": "POSITIVE",
+    "product": "AmazonBasics External Hard Drive Case",
+    "cluster": "Media & Home",
+    "confidence": 0.998
+  },
+  {
+    "text": "Each battery only lasts a few days on my wireless mouse.Update: the problem is actually with my mouse or computer other batteries are also draining too fast. Nevertheless, it would be good if these Amazon batteries stated their capacity.",
+    "rating": 4,
+    "sentiment": "NEUTRAL",
+    "product": "AmazonBasics AA Performance Alkaline Batteries (48 Count) - Packaging May Vary",
+    "cluster": "Batteries & Household",
+    "confidence": 0.844
+  },
+  {
+    "text": "Everything was great and I like it very much",
+    "rating": 5,
+    "sentiment": "POSITIVE",
+    "product": "AmazonBasics 15.6-Inch Laptop and Tablet Bag",
+    "cluster": "Accessories",
+    "confidence": 0.999
+  },
+  {
+    "text": "Much harder to work than an android. None of the wallpaper apps I downloaded from the kindle store work on the device. many of the other apps look cheap on the display. other wise it is prettier and more responsive than the cheaper $49 tablet. They make it look like an android tablet but it is not. no google play. Everything is just harder to work than on a regular android BUT for a tablet under $100 it exceeds expectations. It is more responsive than other models of fire",
+    "rating": 3,
+    "sentiment": "NEUTRAL",
+    "product": "Fire HD 8 Tablet with Alexa, 8 HD Display, 16 GB, Tangerine - with Special Offer",
+    "cluster": "Fire Tablets",
+    "confidence": 0.994
+  },
+  {
+    "text": "I purchase two of these backpacks for my wife and son's laptops. The case is well constructed and has many compartments. Its a great backpack for the price.",
+    "rating": 5,
+    "sentiment": "POSITIVE",
+    "product": "AmazonBasics Backpack for Laptops up to 17-inches",
+    "cluster": "Accessories",
+    "confidence": 0.998
+  },
+  {
+    "text": "The screen size could be bigger like the earlier versions of kindle.",
+    "rating": 3,
+    "sentiment": "NEUTRAL",
+    "product": "Kindle E-reader - White, 6 Glare-Free Touchscreen Display, Wi-Fi - Includes Spec",
+    "cluster": "E-Readers",
+    "confidence": 0.989
+  },
+  {
+    "text": "Was ok till it fell off table landed flat face down the broke screen my granddaughter threw unit and didn't break but it fell then broke so what good is bumper on unit if that happens",
+    "rating": 4,
+    "sentiment": "NEUTRAL",
+    "product": "Fire Kids Edition Tablet, 7 Display, Wi-Fi, 16 GB, Pink Kid-Proof Case",
+    "cluster": "Fire Tablets",
+    "confidence": 0.979
+  },
+  {
+    "text": "This was advertised as the latest version 8. My ignorance led me to its 79 price. I thought they were all Paperwite - as in just like white paper in a book. Bought it for my wife. I returned mine as a refused shipment and ordered the PaperWhite. It has a backlight, higher resolution, and for 20, worth it. Kindler 1",
+    "rating": 3,
+    "sentiment": "NEUTRAL",
+    "product": "All-New Kindle E-reader - Black, 6\" Glare-Free Touchscreen Display, Wi-Fi - Incl",
+    "cluster": "E-Readers",
+    "confidence": 0.977
+  },
+  {
+    "text": "We only use it for streaming Hulu and playing a few games but it's held its own so far.",
+    "rating": 4,
+    "sentiment": "POSITIVE",
+    "product": "Fire Tablet, 7 Display, Wi-Fi, 16 GB - Includes Special Offers, Black",
+    "cluster": "Fire Tablets",
+    "confidence": 0.995
+  },
+  {
+    "text": "Thoughts of being able to have the Echo \"grow\" as I added to the list of tasks, excited me. Including the latest app, having it to recognize my smartphone's contact list to place and to receive calls. However, the Echo I purchased does not link up to my Samsung smartphone. Disappointed is a understatement.",
+    "rating": 4,
+    "sentiment": "NEUTRAL",
+    "product": "Amazon Tap Smart Assistant Alexaenabled (black) Brand New",
+    "cluster": "Smart Speakers",
+    "confidence": 0.976
+  },
+  {
+    "text": "Love it, had the stick and it was kinda slow navigating. This one is much faster. Was going to use this and cancel cable. When I told my cable company I wanted to cancel and I was just going to stream everything they cut my bundle cost by 100. I kept cable but I also still use my firetv alot.",
+    "rating": 5,
+    "sentiment": "POSITIVE",
+    "product": "Certified Refurbished Amazon Fire TV with Alexa Voice Remote",
+    "cluster": "Media & Home",
+    "confidence": 0.997
+  },
+  {
+    "text": "I bought this tablet for my kids to watch videos and use mostly educational games on it and they love it.",
+    "rating": 5,
+    "sentiment": "POSITIVE",
+    "product": "Fire Tablet with Alexa, 7 Display, 16 GB, Magenta - with Special Offers",
+    "cluster": "Fire Tablets",
+    "confidence": 0.998
+  },
+  {
+    "text": "Pros: Works good like Alexia Cons: setting it up is a , HASLE had to call verizon three times Other Thoughts: I WOULD RECOMMEND IT",
+    "rating": 5,
+    "sentiment": "POSITIVE",
+    "product": "Fire TV Stick Streaming Media Player Pair Kit",
+    "cluster": "Media & Home",
+    "confidence": 0.987
+  },
+  {
+    "text": "Nice size, nice look,love the feel of turning the page. Great reading experience.",
+    "rating": 5,
+    "sentiment": "POSITIVE",
+    "product": "Kindle Voyage E-reader, 6 High-Resolution Display (300 ppi) with Adaptive Built-",
+    "cluster": "E-Readers",
+    "confidence": 0.999
+  },
+  {
+    "text": "i cant at night it has no back light from one to ten its a 7",
+    "rating": 2,
+    "sentiment": "NEGATIVE",
+    "product": "Kindle Voyage E-reader, 6 High-Resolution Display (300 ppi) with Adaptive Built-",
+    "cluster": "E-Readers",
+    "confidence": 0.983
+  },
+  {
+    "text": "One star because this should've been included when I purchased my Kindles. Bought this second one because I have three paper whites and got tired of playing musical charge chairs. And if Amazon would concentrate on the loyal e-book readers rather than the useless fires and increase memory more than the little bit they did on the latest kindle (I own one) I would be a happy camper. We need the option of adding memory (Amazon invent a chip that only you sell and the only one a kindle can use and I",
+    "rating": 1,
+    "sentiment": "NEGATIVE",
+    "product": "Oem Amazon Kindle Power Usb Adapter Wall Travel Charger Fire/dx/+micro Usb Cable",
+    "cluster": "Accessories",
+    "confidence": 0.999
+  },
+  {
+    "text": "Works great if you plan to have it in arms reach. You have to physically tap it to ask Alexa. Store rep knew what we wanted it for and never told us you had to tap, not voice activate. Returned to wait for indefinite out-of-stock Echo to get in eventually.",
+    "rating": 5,
+    "sentiment": "NEUTRAL",
+    "product": "Amazon Tap Smart Assistant Alexaenabled (black) Brand New",
+    "cluster": "Smart Speakers",
+    "confidence": 0.983
+  },
+  {
+    "text": "I use it all around the house. I move it upstairs and down. With the upgrade firmware you don't have to tap. Just say \"Alexa.\" Good sound, but not as good as JBL charge speaker. I bought a 2nd one as a Christmas gift.",
+    "rating": 5,
+    "sentiment": "NEUTRAL",
+    "product": "Amazon Tap Smart Assistant Alexaenabled (black) Brand New",
+    "cluster": "Smart Speakers",
+    "confidence": 0.982
+  },
+  {
+    "text": "Excellent product for the price",
+    "rating": 5,
+    "sentiment": "POSITIVE",
+    "product": "AmazonBasics AAA Performance Alkaline Batteries (36 Count)",
+    "cluster": "Batteries & Household",
+    "confidence": 0.998
+  },
+  {
+    "text": "I bought this Kindle for my 7 year old grand-daughter. I bought a warranty for it. I bought it in August, I have already had to replace it. The charger connection got loose and was not charging. Well, it has happened again. I will need to exchange it again. The problem is that I have to buy the warranty each time. I was going to buy one for her brothers and sister, but I am now rethinking that.",
+    "rating": 2,
+    "sentiment": "NEGATIVE",
+    "product": "Fire Kids Edition Tablet, 7 Display, Wi-Fi, 16 GB, Blue Kid-Proof Case",
+    "cluster": "Fire Tablets",
+    "confidence": 0.999
+  },
+  {
+    "text": "I spent more time trying get it functioning than I did actually keeping this product. After a couple of days and never getting it to understand or follow my commands I returned it to BB. Also it kept trying to sell me products which I really didn‚Äôt appreciate.",
+    "rating": 1,
+    "sentiment": "NEGATIVE",
+    "product": "Amazon Tap Smart Assistant Alexaenabled (black) Brand New",
+    "cluster": "Smart Speakers",
+    "confidence": 0.999
+  },
+  {
+    "text": "Great case.. took awhile to get to my house but after several delays it finally got there.",
+    "rating": 3,
+    "sentiment": "NEUTRAL",
+    "product": "All-New Fire HD 8 Kids Edition Tablet, 8 HD Display, 32 GB, Pink Kid-Proof Case",
+    "cluster": "Fire Tablets",
+    "confidence": 0.994
+  },
+  {
+    "text": "The package was delivered with only 40 batteries missing 8 batteries although it was perfectly closed and sealed",
+    "rating": 2,
+    "sentiment": "NEGATIVE",
+    "product": "AmazonBasics AAA Performance Alkaline Batteries (36 Count)",
+    "cluster": "Batteries & Household",
+    "confidence": 0.999
+  },
+  {
+    "text": "Great Batteries. Cost and shipping was well worth it.",
+    "rating": 5,
+    "sentiment": "POSITIVE",
+    "product": "AmazonBasics AAA Performance Alkaline Batteries (36 Count)",
+    "cluster": "Batteries & Household",
+    "confidence": 0.999
+  },
+  {
+    "text": "The is an entry level tablet for those who are looking for a budget tablet. I believe you can only access to Amazon App Store - which has fewer apps as compared to Apple Store and Google Play.",
+    "rating": 4,
+    "sentiment": "NEUTRAL",
+    "product": "All-New Fire HD 8 Tablet with Alexa, 8 HD Display, 16 GB, Marine Blue - with Spe",
+    "cluster": "Fire Tablets",
+    "confidence": 0.596
+  },
+  {
+    "text": "but do last longer than Duracell",
+    "rating": 3,
+    "sentiment": "NEUTRAL",
+    "product": "AmazonBasics AAA Performance Alkaline Batteries (36 Count)",
+    "cluster": "Batteries & Household",
+    "confidence": 0.99
+  },
+  {
+    "text": "This is a great on-the-go speaker. I like the fact that it sits on a charging cradle instead of having to plug in. Also, bonus: Alex. I like the update they have done to it as well where you don't have to push the button to activate her, you can just say her name. If you are looking for an echo with a decent speaker without paying too much, choose this one. Spend more,m and you can get the regular echo which has a better booming sound, but you can't travel with it.",
+    "rating": 5,
+    "sentiment": "POSITIVE",
+    "product": "Amazon Tap Smart Assistant Alexaenabled (black) Brand New",
+    "cluster": "Smart Speakers",
+    "confidence": 0.998
+  },
+  {
+    "text": "work like batteries should at much lower cost.",
+    "rating": 5,
+    "sentiment": "NEGATIVE",
+    "product": "AmazonBasics AAA Performance Alkaline Batteries (36 Count)",
+    "cluster": "Batteries & Household",
+    "confidence": 0.557
+  },
+  {
+    "text": "Very disappointed that my Kindle Voyage, purchased in April, failed after just two uses. Went to charge it tonight to take on a business trip and it won't charge, won't reset, etc. Since my Best Buy receipt says I only have 15 days to return it, tried calling Amazon support. Their only solution after over 30 minutes on the phone is to process a replacement which may be a new or may be a refurbished device-- unacceptable to replace a less than 2-month old device with a refurbished one... but, giv",
+    "rating": 1,
+    "sentiment": "NEGATIVE",
+    "product": "Kindle Voyage E-reader, 6 High-Resolution Display (300 ppi) with Adaptive Built-",
+    "cluster": "E-Readers",
+    "confidence": 0.999
+  },
+  {
+    "text": "They're batteries.",
+    "rating": 4,
+    "sentiment": "NEUTRAL",
+    "product": "AmazonBasics AAA Performance Alkaline Batteries (36 Count)",
+    "cluster": "Batteries & Household",
+    "confidence": 0.909
+  },
+  {
+    "text": "Great case to keep everything in its place! My husband love it!!!! Holds a lot of cds!",
+    "rating": 5,
+    "sentiment": "POSITIVE",
+    "product": "AmazonBasics Nylon CD/DVD Binder (400 Capacity)",
+    "cluster": "Media & Home",
+    "confidence": 0.998
+  },
+  {
+    "text": "I replaced my older Kindle Keyboard, which is larger and heavier than this kindle. Page turning takes some getting used to - I keep touching screen and turning page by mistake. You're able to turn the \"side buttons\" page turning off, but can't turn the touchscreen page turning off - it sure would be nice to allow page turns only with the \"side buttons\" - I think this is a major design flaw. Also, the audio option seems to be missing - you can't have books read aloud to you anymore. Also, no 3G. ",
+    "rating": 3,
+    "sentiment": "NEUTRAL",
+    "product": "Kindle Voyage E-reader, 6 High-Resolution Display (300 ppi) with Adaptive Built-",
+    "cluster": "E-Readers",
+    "confidence": 0.994
+  },
+  {
+    "text": "I am bring it back for an exchange. (a different make)",
+    "rating": 1,
+    "sentiment": "NEGATIVE",
+    "product": "All-New Fire HD 8 Tablet, 8 HD Display, Wi-Fi, 16 GB - Includes Special Offers, ",
+    "cluster": "Fire Tablets",
+    "confidence": 0.985
+  },
+  {
+    "text": "Hi ordered these thinking they were a great price, but sadly they die very quickly.",
+    "rating": 1,
+    "sentiment": "NEGATIVE",
+    "product": "AmazonBasics AAA Performance Alkaline Batteries (36 Count)",
+    "cluster": "Batteries & Household",
+    "confidence": 0.999
+  },
+  {
+    "text": "The Ultimate Bluetooth speaker...I have multiple Amazon Echos and a Whole Echo System set up in my house. I Love Everything Amazon...I can't stand Apple but now I know how they feel...I am a Cult Member of Amazon!!! LOL So anyway...I have been trashing this device...The Tap...because it does not have the always on feature and that is one of the things I like most about the Echo. The only flaw of the Echo is it is not portable..I tried the Triby but I did not like it...more for little kids. So on",
+    "rating": 5,
+    "sentiment": "POSITIVE",
+    "product": "Amazon Tap Smart Assistant Alexaenabled (black) Brand New",
+    "cluster": "Smart Speakers",
+    "confidence": 0.998
+  },
+  {
+    "text": "If you're looking for something to keep your laptop cool, this will do the trick. Although only bad things are, it isn't comfortable sitting on your lap as the metal just isn't awesome. The rivets where you rest your hands are welded things and they're uncomfortable as they dig into your hands when trying to type or even resting your hands. Wouldn't recommend..",
+    "rating": 3,
+    "sentiment": "NEUTRAL",
+    "product": "AmazonBasics Ventilated Adjustable Laptop Stand",
+    "cluster": "Accessories",
+    "confidence": 0.995
+  },
+  {
+    "text": "I was initially happy that my Kindle replacement charging cord arrived so promptly, it seemed to work fine. But after only one use, the outer covering of the cord started cracking falling off in bits. It now is almost completely covered by electrical tape, as the bits fall off w/ each every use. I will end up having to buy a new one after all...",
+    "rating": 1,
+    "sentiment": "NEGATIVE",
+    "product": "Amazon Kindle Replacement Power Adapter (Fits Latest Generation Kindle and Kindl",
+    "cluster": "Accessories",
+    "confidence": 0.999
+  },
+  {
+    "text": "Many of these batteries are not working at all. Very disappointed.",
+    "rating": 1,
+    "sentiment": "NEGATIVE",
+    "product": "AmazonBasics AAA Performance Alkaline Batteries (36 Count)",
+    "cluster": "Batteries & Household",
+    "confidence": 0.999
+  },
+  {
+    "text": "Hold up really well in my son's toys, better than most so far and last a few days in my hubby's Xbox controller, but mind you the thing is hardly ever not in his hands so that's actually a pretty good span compared to others we've used.",
+    "rating": 5,
+    "sentiment": "POSITIVE",
+    "product": "AmazonBasics AAA Performance Alkaline Batteries (36 Count)",
+    "cluster": "Batteries & Household",
+    "confidence": 0.998
+  },
+  {
+    "text": "Bummed. These batteries do not last long! Good for things like a clicker or something that isn't used often but we used these for Xbox one controller. With maybe 2 hours usage a day I've had to switch them out once a week.",
+    "rating": 2,
+    "sentiment": "NEGATIVE",
+    "product": "AmazonBasics AA Performance Alkaline Batteries (48 Count) - Packaging May Vary",
+    "cluster": "Batteries & Household",
+    "confidence": 0.999
+  },
+  {
+    "text": "I work for Nespresso so I have a lot of capsules. I absolutely LOVE the capsule drawers. So much neater than having the sleeves piled on top of each other.",
+    "rating": 5,
+    "sentiment": "POSITIVE",
+    "product": "AmazonBasics Nespresso Pod Storage Drawer - 50 Capsule Capacity",
+    "cluster": "Media & Home",
+    "confidence": 0.998
+  },
+  {
+    "text": "This is a great tablet for kids. Its got great parental controls and its easy for the kids to use. I even enjoy playing angry birds on it",
+    "rating": 5,
+    "sentiment": "POSITIVE",
+    "product": "Fire Kids Edition Tablet, 7 Display, Wi-Fi, 16 GB, Green Kid-Proof Case",
+    "cluster": "Fire Tablets",
+    "confidence": 0.998
+  },
+  {
+    "text": "We bought this tablet for our 4 year old to play games and watch Netflix. He loves it and at this price point, we're not overly concerned if he damages it. We bought a nice foam case that keeps it well protected. We're highly satisfied.",
+    "rating": 5,
+    "sentiment": "POSITIVE",
+    "product": "All-New Fire HD 8 Tablet, 8 HD Display, Wi-Fi, 16 GB - Includes Special Offers, ",
+    "cluster": "Fire Tablets",
+    "confidence": 0.998
+  },
+  {
+    "text": "turning pages not as easy as the original ones; whole Home Page experience not really user friendly, and seems geared to just sell you more books.",
+    "rating": 3,
+    "sentiment": "NEUTRAL",
+    "product": "Kindle Voyage E-reader, 6 High-Resolution Display (300 ppi) with Adaptive Built-",
+    "cluster": "E-Readers",
+    "confidence": 0.994
+  },
+  {
+    "text": "Slow performance and charging port very low poor quality it gets frozen most of the times",
+    "rating": 3,
+    "sentiment": "NEGATIVE",
+    "product": "Fire Kids Edition Tablet, 7 Display, Wi-Fi, 16 GB, Pink Kid-Proof Case",
+    "cluster": "Fire Tablets",
+    "confidence": 0.999
+  },
+  {
+    "text": "Only good for kids and games. Battery life is good.",
+    "rating": 3,
+    "sentiment": "NEUTRAL",
+    "product": "Fire Kids Edition Tablet, 7 Display, Wi-Fi, 16 GB, Green Kid-Proof Case",
+    "cluster": "Fire Tablets",
+    "confidence": 0.983
+  },
+  {
+    "text": "Don't last as long as Duracells.",
+    "rating": 3,
+    "sentiment": "NEUTRAL",
+    "product": "AmazonBasics AA Performance Alkaline Batteries (48 Count) - Packaging May Vary",
+    "cluster": "Batteries & Household",
+    "confidence": 0.994
+  },
+  {
+    "text": "After discarding and getting rid of broken cd cases, broken cds, and selecting those ones we really like, this binder turned up to be an excellent option to store our favourite cds and dvds and keep them in a small space at our living room, giving us the choice to donate or get rid of those cds towers that took a lot of room, despite looking nice. And because you can turn the pages, you can spot the cd you want to play without the hassle of taking it from a case that is falling apart. After stor",
+    "rating": 5,
+    "sentiment": "POSITIVE",
+    "product": "AmazonBasics Nylon CD/DVD Binder (400 Capacity)",
+    "cluster": "Media & Home",
+    "confidence": 0.998
+  },
+  {
+    "text": "A few dollars more, but I am boycotting amazon",
+    "rating": 5,
+    "sentiment": "NEGATIVE",
+    "product": "AmazonBasics Nylon CD/DVD Binder (400 Capacity)",
+    "cluster": "Media & Home",
+    "confidence": 0.977
+  },
+  {
+    "text": "This works well, charges book readers quickly and easily",
+    "rating": 5,
+    "sentiment": "POSITIVE",
+    "product": "Amazon 9W PowerFast Official OEM USB Charger and Power Adapter for Fire Tablets ",
+    "cluster": "Accessories",
+    "confidence": 0.998
+  },
+  {
+    "text": "Great product at a great price from Best Buy. Have to press a button rather than just saying her name, but that's the price you pay for it being cordless.",
+    "rating": 5,
+    "sentiment": "POSITIVE",
+    "product": "Amazon Tap Smart Assistant Alexaenabled (black) Brand New",
+    "cluster": "Smart Speakers",
+    "confidence": 0.997
+  },
+  {
+    "text": "Good quality",
+    "rating": 5,
+    "sentiment": "POSITIVE",
+    "product": "AmazonBasics 16-Gauge Speaker Wire - 100 Feet",
+    "cluster": "Media & Home",
+    "confidence": 0.998
+  },
+  {
+    "text": "Certified garbage! Lesson learned about paying attention to reviews. Fire TV box and remote was packaged like new, even included new batteries. After plugging it in it would only show Amazon logo and 'unknown boot' on screen. Cycled power several times and even tried to reset using remote buttons, no dice. I read all the negative reviews before I purchased this, I chose to take the chance so I'm angry with myself, but very disappointed with Amazon for even suggesting this is refurbished, let alo",
+    "rating": 1,
+    "sentiment": "NEGATIVE",
+    "product": "Certified Refurbished Amazon Fire TV with Alexa Voice Remote",
+    "cluster": "Media & Home",
+    "confidence": 0.999
+  },
+  {
+    "text": "It's a great price on batteries. I can't tell the difference between these and other name brand batteries.",
+    "rating": 5,
+    "sentiment": "POSITIVE",
+    "product": "AmazonBasics AA Performance Alkaline Batteries (48 Count) - Packaging May Vary",
+    "cluster": "Batteries & Household",
+    "confidence": 0.998
+  },
+  {
+    "text": "I am now trying to use the batteries and basically they are not working. Perhaps they are old, but they are just plain not working. I put in a Duracell and my headphones work. I put any one of the 36 batteries in the headphones - and it is not working. It is not worth the effort to get my 10 back.",
+    "rating": 1,
+    "sentiment": "NEGATIVE",
+    "product": "AmazonBasics AAA Performance Alkaline Batteries (36 Count)",
+    "cluster": "Batteries & Household",
+    "confidence": 0.999
+  },
+  {
+    "text": "Bought this mostly as a backup.and to read a few books, since I have a larger cell phone and a back up. Used it occasionally may 40 or 50 hours of use till this week when I sent my laptop in for repairs. so I probably used it a tot this week. I was watching my 3rd Primetime video this week and it simply turned off. It will not turn on using any power trick such as safe mode. It is gone, It is toast. Bought it October 11, 2016 , It quit on February 9, 2015. My old Fire lasted 4 or 5 years with mo",
+    "rating": 1,
+    "sentiment": "NEGATIVE",
+    "product": "All-New Fire HD 8 Tablet, 8 HD Display, Wi-Fi, 32 GB - Includes Special Offers, ",
+    "cluster": "Fire Tablets",
+    "confidence": 0.999
+  },
+  {
+    "text": "This device is good for entry level reader only in daylight.Its doesnot support reading in dark. To read in dark you will have to purchase a light or cover case with light attached. I either case it will put a lot of strain in your eyes.",
+    "rating": 3,
+    "sentiment": "NEUTRAL",
+    "product": "Kindle E-reader - White, 6 Glare-Free Touchscreen Display, Wi-Fi - Includes Spec",
+    "cluster": "E-Readers",
+    "confidence": 0.995
+  },
+  {
+    "text": "This wall charger works exactly as described for the Kindle Paperwhite.",
+    "rating": 5,
+    "sentiment": "POSITIVE",
+    "product": "Amazon 9W PowerFast Official OEM USB Charger and Power Adapter for Fire Tablets ",
+    "cluster": "Accessories",
+    "confidence": 0.998
+  },
+  {
+    "text": "Like DOS, you need to memorize your command and speak it out, otherwise it may not understand your command. Google Assistant is smarter. Also you cant use Spotify free account, to work around you must add a lot of free music to Amazon music into your own amazon music account before you can hear any music. Google home is more convenient this case, as you can start listening to any music channel by your free account from Spotify. If you have paid account for Spotify then not much different here. B",
+    "rating": 2,
+    "sentiment": "NEUTRAL",
+    "product": "Amazon Tap Smart Assistant Alexaenabled (black) Brand New",
+    "cluster": "Smart Speakers",
+    "confidence": 0.984
+  },
+  {
+    "text": "Overpriced, works about the same as raovac.",
+    "rating": 1,
+    "sentiment": "NEGATIVE",
+    "product": "AmazonBasics AAA Performance Alkaline Batteries (36 Count)",
+    "cluster": "Batteries & Household",
+    "confidence": 0.999
+  },
+  {
+    "text": "E-Reader battery doesn't hold up as long as stated.",
+    "rating": 4,
+    "sentiment": "NEUTRAL",
+    "product": "Kindle Voyage E-reader, 6 High-Resolution Display (300 ppi) with Adaptive Built-",
+    "cluster": "E-Readers",
+    "confidence": 0.994
+  },
+  {
+    "text": "When it works it's great but for some reason it doesn't always answer me When it doesn't answer me I turn off the tv and make sure no one else is talking and it still doesn't work at that time. It was easy to set up with the phone app. Doesn't seem to matter where the phone is when it isn't working. I've tried close and far and in between. So a case of great when it works and the pits when it doesn't",
+    "rating": 3,
+    "sentiment": "NEUTRAL",
+    "product": "Amazon Tap Smart Assistant Alexaenabled (black) Brand New",
+    "cluster": "Smart Speakers",
+    "confidence": 0.99
+  },
+  {
+    "text": "I bought my Kindle about 2 months ago and the battery is already dead and will not charge",
+    "rating": 4,
+    "sentiment": "NEGATIVE",
+    "product": "Kindle E-reader - White, 6 Glare-Free Touchscreen Display, Wi-Fi - Includes Spec",
+    "cluster": "E-Readers",
+    "confidence": 0.999
+  },
+  {
+    "text": "Works as intended. Safety for hard drive that stores my photos.",
+    "rating": 4,
+    "sentiment": "POSITIVE",
+    "product": "AmazonBasics External Hard Drive Case",
+    "cluster": "Media & Home",
+    "confidence": 0.997
+  },
+  {
+    "text": "Nothing spectacular. Works as well as competitors but cheaper to buy.",
+    "rating": 4,
+    "sentiment": "NEUTRAL",
+    "product": "AmazonBasics AAA Performance Alkaline Batteries (36 Count)",
+    "cluster": "Batteries & Household",
+    "confidence": 0.992
+  },
+  {
+    "text": "We love that it is portable and can move from room to room effortlessly.",
+    "rating": 5,
+    "sentiment": "POSITIVE",
+    "product": "Amazon Tap Smart Assistant Alexaenabled (black) Brand New",
+    "cluster": "Smart Speakers",
+    "confidence": 0.998
+  },
+  {
+    "text": "Great battery. They last as long as any other, I see. Great price, too.",
+    "rating": 5,
+    "sentiment": "POSITIVE",
+    "product": "AmazonBasics AAA Performance Alkaline Batteries (36 Count)",
+    "cluster": "Batteries & Household",
+    "confidence": 0.999
+  },
+  {
+    "text": "For me, the Kindle Black was not a good fit for me. There are times I read at night in bed when my husband is sleeping. This model doesn't have a back light so I'm unable to read at night without turning on a light and waking up my husband.So I returned and went for a Kindle Fire.",
+    "rating": 3,
+    "sentiment": "NEUTRAL",
+    "product": "Kindle E-reader - White, 6 Glare-Free Touchscreen Display, Wi-Fi - Includes Spec",
+    "cluster": "E-Readers",
+    "confidence": 0.996
+  },
+  {
+    "text": "Batteries last about a week in a wall clock- name brands last six months. Don't waste your money.",
+    "rating": 1,
+    "sentiment": "NEGATIVE",
+    "product": "AmazonBasics AAA Performance Alkaline Batteries (36 Count)",
+    "cluster": "Batteries & Household",
+    "confidence": 0.999
+  },
+  {
+    "text": "Can someone explain to me why I can find hundreds and hundreds of people with this disintegrating isulation on charging cord problem, but not ONE post from Amazon with an official Company Statement about these defective, inferior, slave-labor built, imported, crap charging cablesAnyoneI'll be you dollars to donuts that these 100s of complains will bloom into 10s of thousands, as the existing, bad cables mature. (dry out, degrade, undergo radioactive decay, whatever their issue is). I'll bet I'll",
+    "rating": 1,
+    "sentiment": "NEGATIVE",
+    "product": "Amazon Kindle Replacement Power Adapter (Fits Latest Generation Kindle and Kindl",
+    "cluster": "Accessories",
+    "confidence": 0.999
+  },
+  {
+    "text": "1st kindle screen failed & had to reboot often. Customer Service couldn't fix. Replaced. 2nd one screen reboots often. Customer service offered replace. Just want one that works. Can't get upgrade replacement",
+    "rating": 2,
+    "sentiment": "NEGATIVE",
+    "product": "Kindle E-reader - White, 6 Glare-Free Touchscreen Display, Wi-Fi - Includes Spec",
+    "cluster": "E-Readers",
+    "confidence": 0.999
+  },
+  {
+    "text": "I have owned the product for about a month and it is as advertised. The case only opens about a third of the way. I have always had computer bags that opened fully. It it inconvenient to have to wrestle with the laptop trying to fit it through the small opening. I recommend spending few extra shekels and buy a case that fully opens.",
+    "rating": 3,
+    "sentiment": "NEUTRAL",
+    "product": "AmazonBasics 15.6-Inch Laptop and Tablet Bag",
+    "cluster": "Accessories",
+    "confidence": 0.994
+  },
+  {
+    "text": "The screen is too dark, and cannot adjust the brightness",
+    "rating": 2,
+    "sentiment": "NEGATIVE",
+    "product": "Kindle E-reader - White, 6 Glare-Free Touchscreen Display, Wi-Fi - Includes Spec",
+    "cluster": "E-Readers",
+    "confidence": 0.999
+  },
+  {
+    "text": "I had originally decided to get a kindle instead of an iPad due to the cost. It's a great screen and has good sound, but the battery is pure junk! I should have went with an iPad.",
+    "rating": 2,
+    "sentiment": "NEGATIVE",
+    "product": "Fire HD 10 Tablet, 10.1 HD Display, Wi-Fi, 16 GB - Includes Special Offers, Silv",
+    "cluster": "Fire Tablets",
+    "confidence": 0.718
+  },
+  {
+    "text": "Exactly what I needed. Didn't want to settle for a generic off brand charger. Thanks to Best Buy I didn't have to.",
+    "rating": 5,
+    "sentiment": "POSITIVE",
+    "product": "Amazon 9W PowerFast Official OEM USB Charger and Power Adapter for Fire Tablets ",
+    "cluster": "Accessories",
+    "confidence": 0.998
+  },
+  {
+    "text": "I bought this thing refurbished. I find that I have to unplug / plug back in the HDMI cable on a regular basis when switching inputs on the TV. Not sure if it is the Amazon Fire box itself or if it is the TV (Not likely).Otherwise it is a good device. I bought it for the ability to hard wire my Ethernet connection to my gigabit switch and for 4K capabilities which it does do. Having the Alexa app is handy but her features can be severely handicapped.I probably should have just bought it new.....",
+    "rating": 2,
+    "sentiment": "NEUTRAL",
+    "product": "Certified Refurbished Amazon Fire TV with Alexa Voice Remote",
+    "cluster": "Media & Home",
+    "confidence": 0.989
+  },
+  {
+    "text": "the speaker voice quality is terrible compare the similar size my logitech UE BOOM.the price is too high, even I got on promotion with $79",
+    "rating": 1,
+    "sentiment": "NEGATIVE",
+    "product": "Amazon Tap Smart Assistant Alexaenabled (black) Brand New",
+    "cluster": "Smart Speakers",
+    "confidence": 0.999
+  },
+  {
+    "text": "You need to have amazon prime plus order a special music plan. Disappointing for sure. The sound is ok. I think the larger model is probably better.",
+    "rating": 3,
+    "sentiment": "NEUTRAL",
+    "product": "Amazon Tap Smart Assistant Alexaenabled (black) Brand New",
+    "cluster": "Smart Speakers",
+    "confidence": 0.994
+  },
+  {
+    "text": "I am disappointed with the quality of these batteries. I used them to light some low voltage decoration lights on the ceiling of my bus. They only lasted 1 day. Replaced with Energizer batteries and I am in my 2 week and they are still going strong.",
+    "rating": 2,
+    "sentiment": "NEGATIVE",
+    "product": "AmazonBasics AAA Performance Alkaline Batteries (36 Count)",
+    "cluster": "Batteries & Household",
+    "confidence": 0.999
+  },
+  {
+    "text": "Love the Tap! Bought it as a gift and love the sound quality. For such a small speaker, it packs a big punch!",
+    "rating": 5,
+    "sentiment": "POSITIVE",
+    "product": "Amazon Tap Smart Assistant Alexaenabled (black) Brand New",
+    "cluster": "Smart Speakers",
+    "confidence": 0.999
+  },
+  {
+    "text": "These die out super quickly. In saying that, I'm not sure if the items they were in sucked the life out of the faster but they still died. Used nearly a whole pack for little LED closet lights in a couple of months - only on for a few minutes at s time.",
+    "rating": 2,
+    "sentiment": "NEGATIVE",
+    "product": "AmazonBasics AAA Performance Alkaline Batteries (36 Count)",
+    "cluster": "Batteries & Household",
+    "confidence": 0.999
+  },
+  {
+    "text": "Hard time getting the free apps to load and the voice app to turn off when my seven year old accedently turned it on.",
+    "rating": 2,
+    "sentiment": "NEUTRAL",
+    "product": "Fire Kids Edition Tablet, 7 Display, Wi-Fi, 16 GB, Pink Kid-Proof Case",
+    "cluster": "Fire Tablets",
+    "confidence": 0.559
+  },
+  {
+    "text": "After buying this tablet for my grandchildren I was going through the initial setup procedure.That's where I was surprised to learn that after using this tablet for a year I would be charged fees to continue with the selected programs I used for a year.Time to take it back to the store. No hidden fees.",
+    "rating": 1,
+    "sentiment": "NEGATIVE",
+    "product": "Fire Kids Edition Tablet, 7 Display, Wi-Fi, 16 GB, Pink Kid-Proof Case",
+    "cluster": "Fire Tablets",
+    "confidence": 0.999
+  },
+  {
+    "text": "No reason. This product is described as 5W, 1 amp. The Kindle line is mainly 5V (4.8V, what's the difference) and around 1 amp, which is 5 Watts (5W). Why the mystery, guys Also, this deal is for US 110V market only I travel. I like that the previous simple FIRE charger was universal (i.e. 100V-240v). I like that the first Kindle charger was also universal. What are you people doing Or, is it that the copywriter in this case just doesn't understandFor those who don't understand the details of el",
+    "rating": 1,
+    "sentiment": "NEGATIVE",
+    "product": "Oem Amazon Kindle Power Usb Adapter Wall Travel Charger Fire/dx/+micro Usb Cable",
+    "cluster": "Accessories",
+    "confidence": 0.886
+  },
+  {
+    "text": "Can't seem to say enough about this awesome stand. This allows me to utilize my laptop monitor and a second flawlessly. The cord keep on the back is great as well. I am about to purchase another monitor and with the choices of adjustment angle, this stand should place the two screens side by side perfectly for that one as well.There is no vibration through the metal as the contacts on the bottom are padded. The fan on my laptop almost never comes on even during day long uploads to the cloud due ",
+    "rating": 5,
+    "sentiment": "POSITIVE",
+    "product": "AmazonBasics Ventilated Adjustable Laptop Stand",
+    "cluster": "Accessories",
+    "confidence": 0.999
+  },
+  {
+    "text": "I just broke my 3rd generation kindle after many years, had to get a new one...the new kindle has more features in an intrusive format, it is hard to get books loaded, deleted, collected, and even to turn the page..an inadvertant tap on the wrong part of the page, or a twitchy finger, and you're down the rabbit hole..I really just want a reader, not another tablet",
+    "rating": 3,
+    "sentiment": "NEUTRAL",
+    "product": "Kindle E-reader - White, 6 Glare-Free Touchscreen Display, Wi-Fi - Includes Spec",
+    "cluster": "E-Readers",
+    "confidence": 0.97
+  },
+  {
+    "text": "Great price and they work and last as long as the name brands.",
+    "rating": 5,
+    "sentiment": "POSITIVE",
+    "product": "AmazonBasics AAA Performance Alkaline Batteries (36 Count)",
+    "cluster": "Batteries & Household",
+    "confidence": 0.998
+  },
+  {
+    "text": "Happy to have purchased this one for my birthday and this is the best",
+    "rating": 5,
+    "sentiment": "POSITIVE",
+    "product": "Amazon Tap Smart Assistant Alexaenabled (black) Brand New",
+    "cluster": "Smart Speakers",
+    "confidence": 0.999
+  },
+  {
+    "text": "Having to press to talk steals the real thunder of what the amazon echo can do.",
+    "rating": 3,
+    "sentiment": "NEUTRAL",
+    "product": "Amazon Tap Smart Assistant Alexaenabled (black) Brand New",
+    "cluster": "Smart Speakers",
+    "confidence": 0.795
+  },
+  {
+    "text": "Got these for my grand kids and they love them...already went thru 6 of them...lol",
+    "rating": 5,
+    "sentiment": "POSITIVE",
+    "product": "All-New Fire HD 8 Kids Edition Tablet, 8 HD Display, 32 GB, Blue Kid-Proof Case",
+    "cluster": "Fire Tablets",
+    "confidence": 0.998
+  },
+  {
+    "text": "I have the Western Digital My Passport Ultra 2TB USB 3.0 Portable Drive 2.5 (laptop size) external hard drive. The hard drives case is mostly plastic with a thin pretty metal sheet top that's more for aesthetics than protection. I originally bought the matching extra-tough pod like WD Nomad Rugged case that offers great protection. Once fitted into the Nomad, the drive stays in the sealed protective case with only the USB3 port accessible behind a rubber flap - and given the light-weight feel of",
+    "rating": 5,
+    "sentiment": "POSITIVE",
+    "product": "AmazonBasics External Hard Drive Case",
+    "cluster": "Media & Home",
+    "confidence": 0.982
+  },
+  {
+    "text": "Good but setup to enable voice control only on iOS is unclear.",
+    "rating": 4,
+    "sentiment": "POSITIVE",
+    "product": "Amazon Tap Smart Assistant Alexaenabled (black) Brand New",
+    "cluster": "Smart Speakers",
+    "confidence": 0.982
+  },
+  {
+    "text": "It is just an average tablet. Bit slow but is a good option for people on budget",
+    "rating": 3,
+    "sentiment": "NEUTRAL",
+    "product": "Fire HD 8 Tablet with Alexa, 8 HD Display, 16 GB, Tangerine - with Special Offer",
+    "cluster": "Fire Tablets",
+    "confidence": 0.895
+  },
+  {
+    "text": "Th size difference is noticeable and squarish rather then rectangular, which I prefer. The Kindle unit itself is rather nice, the auto rotate and adjust being the best part. I returned this item b/c the cover is flimsy. and I was afraid I would drop it and break the kindle.",
+    "rating": 3,
+    "sentiment": "NEUTRAL",
+    "product": "Kindle Oasis E-reader with Leather Charging Cover - Black, 6 High-Resolution Dis",
+    "cluster": "E-Readers",
+    "confidence": 0.994
+  },
+  {
+    "text": "Got this for my wife and she loves it. Compact library on the go for an avid reader.",
+    "rating": 5,
+    "sentiment": "POSITIVE",
+    "product": "Kindle Oasis E-reader with Leather Charging Cover - Merlot, 6 High-Resolution Di",
+    "cluster": "E-Readers",
+    "confidence": 0.998
+  },
+  {
+    "text": "Reasonably priced and worth every penny! I love it.",
+    "rating": 5,
+    "sentiment": "POSITIVE",
+    "product": "Amazon Tap Smart Assistant Alexaenabled (black) Brand New",
+    "cluster": "Smart Speakers",
+    "confidence": 0.999
+  },
+  {
+    "text": "I will start off with the fact that I like paper books a lot. I bought the e reader because it's light and can travel with multiple books. The interface is fairly easy to use and it holds a lot of books. The automatic light feature doesn't work as nicely as I would. Overall I am happy with the purchase but there are features that could make it a 5.",
+    "rating": 4,
+    "sentiment": "NEUTRAL",
+    "product": "Kindle Voyage E-reader, 6 High-Resolution Display (300 ppi) with Adaptive Built-",
+    "cluster": "E-Readers",
+    "confidence": 0.573
+  },
+  {
+    "text": "it does not charge any faster than regular charger.",
+    "rating": 3,
+    "sentiment": "NEUTRAL",
+    "product": "Amazon 9W PowerFast Official OEM USB Charger and Power Adapter for Fire Tablets ",
+    "cluster": "Accessories",
+    "confidence": 0.99
+  },
+  {
+    "text": "Is Amazon kidding me They want me to pay 19.99 for an item that is a critical part of the functioning of their product Outrageous. I will find another 5V charger.",
+    "rating": 1,
+    "sentiment": "NEGATIVE",
+    "product": "Oem Amazon Kindle Power Usb Adapter Wall Travel Charger Fire/dx/+micro Usb Cable",
+    "cluster": "Accessories",
+    "confidence": 0.999
+  },
+  {
+    "text": "I own an echo and the tap. The tap is slower to respond. If you haven't used the echo then you will like the tap.",
+    "rating": 3,
+    "sentiment": "NEUTRAL",
+    "product": "Amazon Tap Smart Assistant Alexaenabled (black) Brand New",
+    "cluster": "Smart Speakers",
+    "confidence": 0.994
+  },
+  {
+    "text": "Great speaker, Love using voice commands, Even my granddaughters use the voice command to search for songs.",
+    "rating": 5,
+    "sentiment": "POSITIVE",
+    "product": "Amazon Tap Smart Assistant Alexaenabled (black) Brand New",
+    "cluster": "Smart Speakers",
+    "confidence": 0.999
+  },
+  {
+    "text": "The flush bezel and display are a huge improvement. The text is crisp and easy on the eyes. The page press function and inclusion/position of the touch sensors is perfect. The price seems a bit high for something as simple as an E-Reader, but if you love to read this is a must have. You will not be disappointed.",
+    "rating": 5,
+    "sentiment": "POSITIVE",
+    "product": "Kindle Voyage E-reader, 6 High-Resolution Display (300 ppi) with Adaptive Built-",
+    "cluster": "E-Readers",
+    "confidence": 0.998
+  },
+  {
+    "text": "My Kindle Voyage is nearly 16 months old and worked perfectly. I kept receiving emails from Amazon about the software update. I switched off airplane mode, switched on wifi and shortly after the screen locked up. I have tried everything with customer support and they now tell me I will have to buy a new one. I am very annoyed. If I had left the software as it was my Kindle Voyage would still be working.",
+    "rating": 1,
+    "sentiment": "NEGATIVE",
+    "product": "Kindle Voyage E-reader, 6 High-Resolution Display (300 ppi) with Adaptive Built-",
+    "cluster": "E-Readers",
+    "confidence": 0.999
+  },
+  {
+    "text": "I didn't find it useful for my 4yr old daugter so i returned it the other day.All the games in it r so kiddy games.",
+    "rating": 2,
+    "sentiment": "NEGATIVE",
+    "product": "Fire Kids Edition Tablet, 7 Display, Wi-Fi, 16 GB, Blue Kid-Proof Case",
+    "cluster": "Fire Tablets",
+    "confidence": 0.999
+  },
+  {
+    "text": "I'm a big fan of Amazon and their products, but this tablet is just ok. The build quality is great and the image is very good, but the software is mediocre at best. Worth the price.",
+    "rating": 3,
+    "sentiment": "NEUTRAL",
+    "product": "Fire Kids Edition Tablet, 7 Display, Wi-Fi, 16 GB, Pink Kid-Proof Case",
+    "cluster": "Fire Tablets",
+    "confidence": 0.993
+  },
+  {
+    "text": "Doesn't last long.",
+    "rating": 2,
+    "sentiment": "NEUTRAL",
+    "product": "AmazonBasics AA Performance Alkaline Batteries (48 Count) - Packaging May Vary",
+    "cluster": "Batteries & Household",
+    "confidence": 0.991
+  },
+  {
+    "text": "This tablet overall is okay,there are few problems that i face with this tablet. Charging this tablet takes little longer than the average tabletSome of the application is not available through amazon store app",
+    "rating": 3,
+    "sentiment": "NEUTRAL",
+    "product": "Fire Tablet, 7 Display, Wi-Fi, 16 GB - Includes Special Offers, Black",
+    "cluster": "Fire Tablets",
+    "confidence": 0.995
+  },
+  {
+    "text": "as described.",
+    "rating": 5,
+    "sentiment": "POSITIVE",
+    "product": "AmazonBasics 16-Gauge Speaker Wire - 100 Feet",
+    "cluster": "Media & Home",
+    "confidence": 0.997
+  },
+  {
+    "text": "I purchased the Kindle Oasis because I was growing increasingly tired of the glare and cumbersome size of reading off my iPad. So the portability is great. And of course, I went for the most expensive, because I wanted the extra battery life. And while the length of time it stays charged is nice, charges very quickly, it's still overpriced. I love the non-glare screen, you can literally read this anywhere. But the wifi connectivity is patchy at best. I have to go upstairs in my home and stand cl",
+    "rating": 4,
+    "sentiment": "POSITIVE",
+    "product": "Kindle Oasis E-reader with Leather Charging Cover - Merlot, 6 High-Resolution Di",
+    "cluster": "E-Readers",
+    "confidence": 0.725
+  },
+  {
+    "text": "It has what i wanted click to turn page and that is the only reason i paid that price for it. there is nothing special about it. i thhought that the battery would last longer and as an avid reader it doesn't last long enough.",
+    "rating": 3,
+    "sentiment": "NEUTRAL",
+    "product": "Kindle Voyage E-reader, 6 High-Resolution Display (300 ppi) with Adaptive Built-",
+    "cluster": "E-Readers",
+    "confidence": 0.935
+  },
+  {
+    "text": "For the price this Amazon is amazing. Just like the echo but smaller. I show everyone how great it is.",
+    "rating": 5,
+    "sentiment": "POSITIVE",
+    "product": "Amazon Tap Smart Assistant Alexaenabled (black) Brand New",
+    "cluster": "Smart Speakers",
+    "confidence": 0.999
+  },
+  {
+    "text": "I've always been a fan of the Kindle, ever since the first one came out over a decade again.I was excited about this Kindle due to the many premium features it showed - the all-metal finish, high-resolution ePaper display, backlighting, extended battery life, etc.I was significantly disappointed to see that Amazon pushes ads through the Kindle when you put it into sleep mode, and throughout the store options. Additionally, I was further frustrated by the fact that I learned there was a cellular ",
+    "rating": 2,
+    "sentiment": "NEGATIVE",
+    "product": "All-New Kindle Oasis E-reader - 7 High-Resolution Display (300 ppi), Waterproof,",
+    "cluster": "E-Readers",
+    "confidence": 0.999
+  },
+  {
+    "text": "I liked my really old one a bit better. It broke after 5 years suddenly. The screen failed. I had to pay over 20 bucks extra to get rid of the ads to Amazon. I wasn't aware of this when I first bought so it was more expensive than expected.",
+    "rating": 4,
+    "sentiment": "NEUTRAL",
+    "product": "Kindle E-reader - White, 6 Glare-Free Touchscreen Display, Wi-Fi - Includes Spec",
+    "cluster": "E-Readers",
+    "confidence": 0.978
+  },
+  {
+    "text": "Can't really give a full review since the Kindle Fire seemed to work properly, however, the security, Webroot Anywhere, that was included was impossible to install. I tried calling Geek Squad 4 times for support and was disconnected EVERY time. I finally went to store for instructions which they printed off but still would not download. I've ended up buying an iPad which is fantastic and would not buy again from BestBuy.",
+    "rating": 2,
+    "sentiment": "NEGATIVE",
+    "product": "Fire Tablet, 7 Display, Wi-Fi, 16 GB - Includes Special Offers, Black",
+    "cluster": "Fire Tablets",
+    "confidence": 0.998
+  },
+  {
+    "text": "this is a very good product, the speakers are good, the price was right. I liked everything about it, other than the fact that you had to press the button each time you wanted to talk to it, unlike the echo and the dot. The portability was good, but I didn't have much use for it being portable. Unless you are going to keep the Tap within arm's reach, you're better off with one of the other hands free voice activated products. recommended with caveats",
+    "rating": 4,
+    "sentiment": "POSITIVE",
+    "product": "Amazon Tap Smart Assistant Alexaenabled (black) Brand New",
+    "cluster": "Smart Speakers",
+    "confidence": 0.994
+  },
+  {
+    "text": "Amazon Tap.. got it on Black Friday sale.. But so far feel not as easy as I think to use.. But if you just use as Bluetooth speaker and sound is good.. Maybe just have to learn how to use it more..",
+    "rating": 3,
+    "sentiment": "NEUTRAL",
+    "product": "Amazon Tap Smart Assistant Alexaenabled (black) Brand New",
+    "cluster": "Smart Speakers",
+    "confidence": 0.994
+  },
+  {
+    "text": "GOT THE 48 PACK, I USEDD THEM UP FASTER THAN I THOUGHT I WOULD!!,SO IM ORDERING MORE !! SO IM ORDERING MORE NOW",
+    "rating": 4,
+    "sentiment": "POSITIVE",
+    "product": "AmazonBasics AAA Performance Alkaline Batteries (36 Count)",
+    "cluster": "Batteries & Household",
+    "confidence": 0.992
+  },
+  {
+    "text": "I bought this because the package said it was a fast charger only to find it charges at normal speed... That was disappointing. I'm pretty sure I'm not doing anything wrong. It seems pretty self explanatory... :/",
+    "rating": 3,
+    "sentiment": "NEUTRAL",
+    "product": "Amazon 9W PowerFast Official OEM USB Charger and Power Adapter for Fire Tablets ",
+    "cluster": "Accessories",
+    "confidence": 0.983
+  },
+  {
+    "text": "Overall I've been very happy with my new Kindle Voyage, the screen is much sharper than my wife's paperwhite (v1) and the backlight is much more even. I've also been very happy with the page turn buttons. It makes it significantly more convenient to turn pages than using the screen and the pressure and feedback both seem about right. The only issue I have that keeps this from earning 5 stars is that the backlight on the screen has a slightly two-tone hue. It is somewhat yellowish on top and blui",
+    "rating": 4,
+    "sentiment": "POSITIVE",
+    "product": "Kindle Voyage E-reader, 6 High-Resolution Display (300 ppi) with Adaptive Built-",
+    "cluster": "E-Readers",
+    "confidence": 0.998
+  },
+  {
+    "text": "Greatest small tablet. Just wanted something convenient.",
+    "rating": 5,
+    "sentiment": "POSITIVE",
+    "product": "Fire HD 8 Tablet with Alexa, 8 HD Display, 16 GB, Tangerine - with Special Offer",
+    "cluster": "Fire Tablets",
+    "confidence": 0.999
+  },
+  {
+    "text": "I returned it because I wanted better sound...opted for a bose soundlink. Decent speaker with nice amazon prime/Alexa features...just not the sound I was looking for.",
+    "rating": 3,
+    "sentiment": "NEUTRAL",
+    "product": "Amazon Tap Smart Assistant Alexaenabled (black) Brand New",
+    "cluster": "Smart Speakers",
+    "confidence": 0.995
+  },
+  {
+    "text": "I've always been a reader and an early technology adopter but until now I've resisted moving to electronic media when reading for pleasure. Now I wish I hadn't waited so long. Reading at night with the lights off and instantly downloading a new book are my favorite aspects.",
+    "rating": 5,
+    "sentiment": "POSITIVE",
+    "product": "Kindle Voyage E-reader, 6 High-Resolution Display (300 ppi) with Adaptive Built-",
+    "cluster": "E-Readers",
+    "confidence": 0.998
+  },
+  {
+    "text": "My daughter absolutely love her tablet and I love it to for her. It's very kids friendly",
+    "rating": 5,
+    "sentiment": "POSITIVE",
+    "product": "Fire Kids Edition Tablet, 7 Display, Wi-Fi, 16 GB, Pink Kid-Proof Case",
+    "cluster": "Fire Tablets",
+    "confidence": 0.998
+  },
+  {
+    "text": "Good for little kids, it runs a little slow though",
+    "rating": 3,
+    "sentiment": "NEUTRAL",
+    "product": "Fire Kids Edition Tablet, 7 Display, Wi-Fi, 16 GB, Blue Kid-Proof Case",
+    "cluster": "Fire Tablets",
+    "confidence": 0.995
+  },
+  {
+    "text": "The general use for this tablet is only worth for Amazon users mostly so unless your buy and use Amazon products, I don't recommend this to anyone else. The tablet is not excellent compared to others but it is fairly good for an affordable price.",
+    "rating": 4,
+    "sentiment": "NEUTRAL",
+    "product": "All-New Fire HD 8 Tablet, 8 HD Display, Wi-Fi, 16 GB - Includes Special Offers, ",
+    "cluster": "Fire Tablets",
+    "confidence": 0.844
+  },
+  {
+    "text": "I really liked the idea of having a device I could talk to out of nowhere that would answer (although our cells phones can do similarly, but you have to turn them on and press buttons, etc.). It is also gratifying to be able to tell a device to play music and it does. I was quite disappointed in the ability of Alexa to answer any serious questions. Jeff needs to pay to send his programmers back to search school. So many times Alexa says a phrase similar to I don't understand the question So basi",
+    "rating": 2,
+    "sentiment": "NEGATIVE",
+    "product": "Amazon Echo (1st Generationcertified) Color:White Free Shipping",
+    "cluster": "Smart Speakers",
+    "confidence": 0.999
+  },
+  {
+    "text": "More confusing. It would be nice to have a manual that is not online.",
+    "rating": 4,
+    "sentiment": "NEUTRAL",
+    "product": "Kindle Voyage E-reader, 6 High-Resolution Display (300 ppi) with Adaptive Built-",
+    "cluster": "E-Readers",
+    "confidence": 0.975
+  },
+  {
+    "text": "Cheap Quality Batteries",
+    "rating": 4,
+    "sentiment": "POSITIVE",
+    "product": "AmazonBasics AAA Performance Alkaline Batteries (36 Count)",
+    "cluster": "Batteries & Household",
+    "confidence": 0.998
+  },
+  {
+    "text": "I wouldn't buy it again...the software doesn't seem as well integrated with the hardware on this machine. I also have an Echo and I don't have the same connectivity issues with it that I do with this. I liked the features available with this...portability mainly with a long battery life, but with plagued by connectivity issues I can't say I would recommend it. I have looked at reviews online since purchasing and have discovered I am not the only one that feels this way. The sound, when it is con",
+    "rating": 3,
+    "sentiment": "NEUTRAL",
+    "product": "Amazon Tap Smart Assistant Alexaenabled (black) Brand New",
+    "cluster": "Smart Speakers",
+    "confidence": 0.899
+  },
+  {
+    "text": "This box is wonderful, meets my expectations plus some. I gave up cable and tried it. I don't watch a lot of movies but this box comes with a lot of selections in my opinion more than basic cable, and if you have prime even more selections, theres a lot of free shows just download the apps for them.",
+    "rating": 5,
+    "sentiment": "POSITIVE",
+    "product": "Certified Refurbished Amazon Fire TV with Alexa Voice Remote",
+    "cluster": "Media & Home",
+    "confidence": 0.998
+  },
+  {
+    "text": "Weird but some didn't last long as they should",
+    "rating": 3,
+    "sentiment": "NEUTRAL",
+    "product": "AmazonBasics AA Performance Alkaline Batteries (48 Count) - Packaging May Vary",
+    "cluster": "Batteries & Household",
+    "confidence": 0.995
+  },
+  {
+    "text": "Cheap price but they sure don't last very long. I won't buy the Amazn brand again.",
+    "rating": 1,
+    "sentiment": "NEGATIVE",
+    "product": "AmazonBasics AAA Performance Alkaline Batteries (36 Count)",
+    "cluster": "Batteries & Household",
+    "confidence": 0.998
+  },
+  {
+    "text": "It's great for beginners, like children, but very limiting for me. I can't use many apps because it doesn't allow me to use the Google play store.",
+    "rating": 3,
+    "sentiment": "NEUTRAL",
+    "product": "Fire Tablet with Alexa, 7 Display, 16 GB, Magenta - with Special Offers",
+    "cluster": "Fire Tablets",
+    "confidence": 0.992
+  },
+  {
+    "text": "I Could not be more thrilled to find a new cord for my very old Kindle reader. ,Speed of shipping awesome and quality great",
+    "rating": 5,
+    "sentiment": "POSITIVE",
+    "product": "Amazon Kindle Charger Power Adapter Wall Charger And Usb Cable Micro Usb Cord",
+    "cluster": "Accessories",
+    "confidence": 0.999
+  },
+  {
+    "text": "for 33 dollars its a great option. although it was a black friday special its perfect for kids especially considering the amount of damage it can handle!",
+    "rating": 3,
+    "sentiment": "NEUTRAL",
+    "product": "Fire Tablet with Alexa, 7 Display, 16 GB, Magenta - with Special Offers",
+    "cluster": "Fire Tablets",
+    "confidence": 0.986
+  },
+  {
+    "text": "Triple A batteries at an amazing price Need I say morePretty basic, hence the basic logo. Don't waste on a different brand, but Amazon Basics!",
+    "rating": 5,
+    "sentiment": "POSITIVE",
+    "product": "AmazonBasics AAA Performance Alkaline Batteries (36 Count)",
+    "cluster": "Batteries & Household",
+    "confidence": 0.998
+  },
+  {
+    "text": "Amazing..... Sturdy and well pocketed.... Well worth the investment...very happy with this purchase. It has been holding up quite nicely.",
+    "rating": 5,
+    "sentiment": "POSITIVE",
+    "product": "AmazonBasics Backpack for Laptops up to 17-inches",
+    "cluster": "Accessories",
+    "confidence": 0.999
+  },
+  {
+    "text": "Too bad Amazon turned this tablet into a big advertising tool. Many apps dont work and the camera is not good.",
+    "rating": 1,
+    "sentiment": "NEGATIVE",
+    "product": "Fire Tablet with Alexa, 7 Display, 16 GB, Blue - with Special Offers",
+    "cluster": "Fire Tablets",
+    "confidence": 0.999
+  },
+  {
+    "text": "The protector was not made for the Fire 7 as it was to large and had no directions that were coherent. Worse purchase from Best Buy ever.",
+    "rating": 1,
+    "sentiment": "NEGATIVE",
+    "product": "Fire Tablet, 7 Display, Wi-Fi, 16 GB - Includes Special Offers, Black",
+    "cluster": "Fire Tablets",
+    "confidence": 0.999
+  },
+  {
+    "text": "I didn't actually use as I bought for a gift. My grandson already had one so we returned for a pair if 3-d goggles.",
+    "rating": 5,
+    "sentiment": "NEUTRAL",
+    "product": "Fire HD 8 Tablet with Alexa, 8 HD Display, 16 GB, Tangerine - with Special Offer",
+    "cluster": "Fire Tablets",
+    "confidence": 0.986
+  },
+  {
+    "text": "You get what you pay for.Lucky to get 2 weeks of minimum use.",
+    "rating": 1,
+    "sentiment": "NEGATIVE",
+    "product": "AmazonBasics AAA Performance Alkaline Batteries (36 Count)",
+    "cluster": "Batteries & Household",
+    "confidence": 0.999
+  },
+  {
+    "text": "Good product for listening to and reading books. Also works well when u don't want to carry an expensive and heavy laptop.",
+    "rating": 4,
+    "sentiment": "POSITIVE",
+    "product": "All-New Fire HD 8 Tablet, 8 HD Display, Wi-Fi, 16 GB - Includes Special Offers, ",
+    "cluster": "Fire Tablets",
+    "confidence": 0.998
+  },
+  {
+    "text": "good deal",
+    "rating": 5,
+    "sentiment": "POSITIVE",
+    "product": "AmazonBasics AAA Performance Alkaline Batteries (36 Count)",
+    "cluster": "Batteries & Household",
+    "confidence": 0.999
+  },
+  {
+    "text": "This is fun but would not buy again. Not very informative. Keeps say \"I do not understand your question. \"",
+    "rating": 2,
+    "sentiment": "NEGATIVE",
+    "product": "Amazon Tap Smart Assistant Alexaenabled (black) Brand New",
+    "cluster": "Smart Speakers",
+    "confidence": 0.986
+  },
+  {
+    "text": "I have an echo, tap and a dot. Currently my tap serves as a Bluetooth speaker for my dot - making it more like the echo, but i enjoy being able to take the tap anywhere. It has really good sound much like my echo. It also works great in the app and syncs with all my other products.",
+    "rating": 5,
+    "sentiment": "POSITIVE",
+    "product": "Amazon Tap Smart Assistant Alexaenabled (black) Brand New",
+    "cluster": "Smart Speakers",
+    "confidence": 0.998
+  },
+  {
+    "text": "I bought this as a gift and the recipient loves the processing speed and the fact that it has 2 cameras on the device.",
+    "rating": 5,
+    "sentiment": "POSITIVE",
+    "product": "All-New Fire HD 8 Tablet, 8 HD Display, Wi-Fi, 16 GB - Includes Special Offers, ",
+    "cluster": "Fire Tablets",
+    "confidence": 0.998
+  },
+  {
+    "text": "Im sure these are fine batteries, but they never arrived, and theres no way for me to request a replacement.",
+    "rating": 1,
+    "sentiment": "NEGATIVE",
+    "product": "AmazonBasics AAA Performance Alkaline Batteries (36 Count)",
+    "cluster": "Batteries & Household",
+    "confidence": 0.999
+  },
+  {
+    "text": "It slippes around on pan handle",
+    "rating": 4,
+    "sentiment": "NEUTRAL",
+    "product": "AmazonBasics Silicone Hot Handle Cover/Holder - Red",
+    "cluster": "Media & Home",
+    "confidence": 0.972
+  },
+  {
+    "text": "I love this kindle, the price is good, not too heavy and I charge once every two weeks",
+    "rating": 5,
+    "sentiment": "POSITIVE",
+    "product": "Kindle E-reader - White, 6 Glare-Free Touchscreen Display, Wi-Fi - Includes Spec",
+    "cluster": "E-Readers",
+    "confidence": 0.998
+  },
+  {
+    "text": "Stay away from the certified refurbished Amazon Fire TV. I received two Certified Refurbished defective fire TVs. The first the screen looked half corrupted, see the pictures. The second Certified Refurbished Amazon fire tv I received would not boot up, it was stuck in an infinite loop where I would only see the amazon logo for 10 seconds then it would boot up again.If anything, Amazon needs to re-visit its refurbishment process and quality control of the refurbished products they let get in con",
+    "rating": 1,
+    "sentiment": "NEGATIVE",
+    "product": "Certified Refurbished Amazon Fire TV with Alexa Voice Remote",
+    "cluster": "Media & Home",
+    "confidence": 0.997
+  },
+  {
+    "text": "best battery for the price.",
+    "rating": 5,
+    "sentiment": "POSITIVE",
+    "product": "AmazonBasics AAA Performance Alkaline Batteries (36 Count)",
+    "cluster": "Batteries & Household",
+    "confidence": 0.999
+  },
+  {
+    "text": "Not reaching my expectations and it's okay to kids to play games",
+    "rating": 2,
+    "sentiment": "NEGATIVE",
+    "product": "All-New Fire HD 8 Tablet with Alexa, 8 HD Display, 16 GB, Marine Blue - with Spe",
+    "cluster": "Fire Tablets",
+    "confidence": 0.999
+  },
+  {
+    "text": "This is not an upgrade by any means! My three year old kindle outperformed Oasis.Battery life better than a week with the lights on lowest setting Magnetic connector is poorly designed and grows weak Two pieces to keep up with; unsnaps constantly Amazon Customer Services promises it will resolved in an update",
+    "rating": 1,
+    "sentiment": "NEGATIVE",
+    "product": "Kindle Oasis E-reader with Leather Charging Cover - Black, 6 High-Resolution Dis",
+    "cluster": "E-Readers",
+    "confidence": 0.999
+  },
+  {
+    "text": "There's a lot of space with the Amazon Basics laptop and a number of great compartments, but the material it's made from feels kind of stiff and inexpensive. I was impressed at how much I could get into this backpack, but once it was packed it felt very big and bulky. My normal backpack is a smaller one from Timberline which has less compartments but seems to hold a great deal of stuff and not feel nearly as bulky as this one.",
+    "rating": 3,
+    "sentiment": "NEUTRAL",
+    "product": "AmazonBasics Backpack for Laptops up to 17-inches",
+    "cluster": "Accessories",
+    "confidence": 0.97
+  },
+  {
+    "text": "Isn't the same as the picture.",
+    "rating": 3,
+    "sentiment": "NEUTRAL",
+    "product": "AmazonBasics External Hard Drive Case",
+    "cluster": "Media & Home",
+    "confidence": 0.971
+  },
+  {
+    "text": "Extra features are nice and upgrading from the Kindle Paperwhite was fairly simple. Amazon did an automatic system update which was not cool. There should have been an option to update when we wanted, not when they wanted.",
+    "rating": 4,
+    "sentiment": "NEUTRAL",
+    "product": "Kindle Voyage E-reader, 6 High-Resolution Display (300 ppi) with Adaptive Built-",
+    "cluster": "E-Readers",
+    "confidence": 0.786
+  },
+  {
+    "text": "I waited to get this keyboard until I did a little bit of research, and I think that made all the difference. In the time it took me to do the research, Amazon had pushed out an update that fixed the Bluetooth problem the keyboard had been having. A lot of the one-star reviews are from people who bought the keyboard when this problem hadn't been solved yet.The keyboard itself has all the keys you'd expect: alphanumeric keys, up, down, left and right keys, and a few extra, like keys for the volum",
+    "rating": 4,
+    "sentiment": "POSITIVE",
+    "product": "AmazonBasics Bluetooth Keyboard for Android Devices - Black",
+    "cluster": "Accessories",
+    "confidence": 0.995
+  },
+  {
+    "text": "Great tablet - good for kids and the whole family!",
+    "rating": 5,
+    "sentiment": "POSITIVE",
+    "product": "Fire Tablet with Alexa, 7 Display, 16 GB, Blue - with Special Offers",
+    "cluster": "Fire Tablets",
+    "confidence": 0.998
+  },
+  {
+    "text": "I'm thinking this must of been a fluke, it never worked. Had to return item but received full refund",
+    "rating": 2,
+    "sentiment": "NEGATIVE",
+    "product": "Amazon Tap Smart Assistant Alexaenabled (black) Brand New",
+    "cluster": "Smart Speakers",
+    "confidence": 0.999
+  },
+  {
+    "text": "Enjoy the performance and size of the television we purchased. We are very satisfied with this product",
+    "rating": 5,
+    "sentiment": "POSITIVE",
+    "product": "Fire Tablet, 7 Display, Wi-Fi, 16 GB - Includes Special Offers, Black",
+    "cluster": "Fire Tablets",
+    "confidence": 0.998
+  },
+  {
+    "text": "affordable batteries that last a while. will continue to purchase these over more expensive brands.",
+    "rating": 5,
+    "sentiment": "POSITIVE",
+    "product": "AmazonBasics AAA Performance Alkaline Batteries (36 Count)",
+    "cluster": "Batteries & Household",
+    "confidence": 0.998
+  },
+  {
+    "text": "This was a gift for my mother who is 99 years. She used to love puzzles, but with arthritis and failing eyesight she couldn't do them. The puzzle app is good because she can see it and use finger to slide pieces. She can keep up with family on Facebook",
+    "rating": 5,
+    "sentiment": "POSITIVE",
+    "product": "All-New Fire HD 8 Tablet, 8 HD Display, Wi-Fi, 16 GB - Includes Special Offers, ",
+    "cluster": "Fire Tablets",
+    "confidence": 0.997
+  },
+  {
+    "text": "Great product, long lasting with a great price.",
+    "rating": 5,
+    "sentiment": "POSITIVE",
+    "product": "AmazonBasics AAA Performance Alkaline Batteries (36 Count)",
+    "cluster": "Batteries & Household",
+    "confidence": 0.999
+  },
+  {
+    "text": "Brand names are better. These were not very long lasting. You get what you pay for.",
+    "rating": 3,
+    "sentiment": "NEUTRAL",
+    "product": "AmazonBasics AAA Performance Alkaline Batteries (36 Count)",
+    "cluster": "Batteries & Household",
+    "confidence": 0.865
+  },
+  {
+    "text": "These are OK. Used to Rayovacs to save but, these cost the same and seem to last about 3/4 as much as the other brand. Mostly used for Xbox controllers and Mac mice/keyboard.",
+    "rating": 3,
+    "sentiment": "NEUTRAL",
+    "product": "AmazonBasics AAA Performance Alkaline Batteries (36 Count)",
+    "cluster": "Batteries & Household",
+    "confidence": 0.994
+  },
+  {
+    "text": "BETTER THAN NOTHING, But not as good as the CASE LOGIC: ELS-111 11 Chromebook/Surface 3 Sleeve. Fits the MacAir 11.6 perfect. The Amazon sleeve is simply neoprene, which snags and has so much friction, it doesn't easily slide in/out of my backpack. The Amazon quality is decent, but looks like a beer can cozy (koozie) compared to the CASE LOGIC. The CASE LOGIC IS NOT just NEOPRENE! It is highly protective, light, low density foam encased in canvas. It's more durable and slide in and out of my bac",
+    "rating": 3,
+    "sentiment": "NEUTRAL",
+    "product": "AmazonBasics 11.6-Inch Laptop Sleeve",
+    "cluster": "Accessories",
+    "confidence": 0.989
+  },
+  {
+    "text": "Packaging warning. The batteries are fine but the batteries themselves come pre-wrapped in groups of four! Every time you need more than four or if you're just going to split up some sets, you have to open a new group of four, and they come wrapped in that horribly annoying cellophane like substance that is hard to remove it must be terrible for the environment.",
+    "rating": 3,
+    "sentiment": "NEUTRAL",
+    "product": "AmazonBasics AA Performance Alkaline Batteries (48 Count) - Packaging May Vary",
+    "cluster": "Batteries & Household",
+    "confidence": 0.99
+  },
+  {
+    "text": "The Amazon Fire HD8 (2016 model) is a great tablet for the price; however, the Fire OS offers limited abilities to the user. Personally, I wish there were ways to mirror the screen to a tv without having to purchase a Fire TV streaming stick. Also, the inability to use the google play store is a major set back. If it weren't for those two complaint, I'd give this tablet 4 stars.",
+    "rating": 3,
+    "sentiment": "NEUTRAL",
+    "product": "Fire HD 8 Tablet with Alexa, 8 HD Display, 16 GB, Tangerine - with Special Offer",
+    "cluster": "Fire Tablets",
+    "confidence": 0.991
+  },
+  {
+    "text": "Excellent value, great product. It has a really solid feel. I am very happy with the purchase.",
+    "rating": 5,
+    "sentiment": "POSITIVE",
+    "product": "All-New Fire HD 8 Tablet, 8 HD Display, Wi-Fi, 16 GB - Includes Special Offers, ",
+    "cluster": "Fire Tablets",
+    "confidence": 0.999
+  },
+  {
+    "text": "We really love our new Amazon Tap. My Son enjoys playing with it.",
+    "rating": 5,
+    "sentiment": "POSITIVE",
+    "product": "Amazon Tap Smart Assistant Alexaenabled (black) Brand New",
+    "cluster": "Smart Speakers",
+    "confidence": 0.998
+  },
+  {
+    "text": "The Amazon Echo Tap is a nice & interesting device...but it did not fit my needs. I also have the Amazon Echo and absolutely love it. So what's the difference? A. You have to walk up the the Tap to touch it - this is not as convenient and not as fun as the talking to the Echo from across the room. B. The audio quality not very good - more like a small bluetooth speaker. C. The Tap is fine around the house when it's connected to the home wi-fi, but when you are out of the house it must connect to",
+    "rating": 3,
+    "sentiment": "NEUTRAL",
+    "product": "Amazon Tap Smart Assistant Alexaenabled (black) Brand New",
+    "cluster": "Smart Speakers",
+    "confidence": 0.981
+  },
+  {
+    "text": "I've usually had very good experiences buying AmazonBasics branded items. I've found them to very comparable to the top brand names. These batteries are the exception. Quality wise, they are more comparable to Rayovac batteries than Duracell or Energizer.",
+    "rating": 2,
+    "sentiment": "NEUTRAL",
+    "product": "AmazonBasics AA Performance Alkaline Batteries (48 Count) - Packaging May Vary",
+    "cluster": "Batteries & Household",
+    "confidence": 0.969
+  },
+  {
+    "text": "The only problem that I had is that it should have been included with the Kindle Paperwhite. There is no way to charge the Paperwhite unless you buy the charger. The charging port on the Paperwhite is so small that nothing that I already have will work. Kindle does not even provide a USB cable so that you can charge from your computer. The outlet plug is cheep plastic (hollow) and will probably break, no warranty.",
+    "rating": 2,
+    "sentiment": "NEGATIVE",
+    "product": "Amazon 9W PowerFast Official OEM USB Charger and Power Adapter for Fire Tablets ",
+    "cluster": "Accessories",
+    "confidence": 0.998
+  },
+  {
+    "text": "Great feel and seems to be very well made",
+    "rating": 5,
+    "sentiment": "POSITIVE",
+    "product": "AmazonBasics 16-Gauge Speaker Wire - 100 Feet",
+    "cluster": "Media & Home",
+    "confidence": 0.999
+  },
+  {
+    "text": "I would recommend a more expensive battery for running electronics like cameras or Nintendo ds but they work great for remotes and other little things that rarely need to have batteries replaced",
+    "rating": 4,
+    "sentiment": "POSITIVE",
+    "product": "AmazonBasics AAA Performance Alkaline Batteries (36 Count)",
+    "cluster": "Batteries & Household",
+    "confidence": 0.998
+  },
+  {
+    "text": "Great case ok tablet no Android play store. Weak micro usb port. It's isn't an straight out the box tablet. Had to install Android play store on it. And as far as the charging port goes I'm on my 3rd one but best buy are the best with their return policy...",
+    "rating": 3,
+    "sentiment": "NEUTRAL",
+    "product": "Fire Kids Edition Tablet, 7 Display, Wi-Fi, 16 GB, Pink Kid-Proof Case",
+    "cluster": "Fire Tablets",
+    "confidence": 0.992
+  },
+  {
+    "text": "I purchased my Kindle2 in March of 09 - and it came with this adapter and cord. It is now October 09, and the small part of the adapter for this cord has stopped working. Fortunately, I was able to plug the CORD part into my laptop's USB port, and charge the Kindle that way. While plugged into a wall socket using Amazon's adapter, it does not charge at all (no light, no charge, no nothin'). I tried using the USB/Power adapter for my iPod, but the charge light blinked intermittently, and it seeme",
+    "rating": 2,
+    "sentiment": "NEGATIVE",
+    "product": "Amazon Kindle Replacement Power Adapter (Fits Latest Generation Kindle and Kindl",
+    "cluster": "Accessories",
+    "confidence": 0.996
+  },
+  {
+    "text": "This speaker has a great sound and its perfect to take out on the patio or in any room that I am in. The tap is annoying compared to the Echo with voice activation, but the wireless features makes the purchase worth it.",
+    "rating": 5,
+    "sentiment": "POSITIVE",
+    "product": "Amazon Tap Smart Assistant Alexaenabled (black) Brand New",
+    "cluster": "Smart Speakers",
+    "confidence": 0.998
+  },
+  {
+    "text": "In my opinion this model is too small and feels cheap. And sd card slot.",
+    "rating": 3,
+    "sentiment": "NEUTRAL",
+    "product": "Kindle E-reader - White, 6 Glare-Free Touchscreen Display, Wi-Fi - Includes Spec",
+    "cluster": "E-Readers",
+    "confidence": 0.995
+  },
+  {
+    "text": "Purchased after theft in Seattle. It was on sale and works great.",
+    "rating": 5,
+    "sentiment": "POSITIVE",
+    "product": "Kindle Voyage E-reader, 6 High-Resolution Display (300 ppi) with Adaptive Built-",
+    "cluster": "E-Readers",
+    "confidence": 0.998
+  },
+  {
+    "text": "Like a lot of reviewers here, I struggled to find the right Bluetooth keyboard to go with my Kindle Fire HD. In the end, I decided to go with the Amazon one, figuring that because Amazon made the Fire and the keyboard, there would be fewer potential problems. At first, this was a good theory. I opened the keyboard as soon as it arrived and paired it immediately to my Kindle Fire HD. There were no problems and it worked perfectly.At first.Unfortunately for me, the next time I worked with the keyb",
+    "rating": 4,
+    "sentiment": "NEGATIVE",
+    "product": "AmazonBasics Bluetooth Keyboard for Android Devices - Black",
+    "cluster": "Accessories",
+    "confidence": 0.908
+  },
+  {
+    "text": "I wanted a new cord for my kindal and I wanted one like the one that came with my kindal. This was not what was as described. It's not white or anything like the original. It did ship quickly. I seldom write reviews I like my privacy.",
+    "rating": 5,
+    "sentiment": "NEUTRAL",
+    "product": "Amazon Kindle Charger Power Adapter Wall Charger And Usb Cable Micro Usb Cord",
+    "cluster": "Accessories",
+    "confidence": 0.979
+  },
+  {
+    "text": "Sorry to say I've been disappointed with these. They didn't last as long in my remotes and RC transmitters as even other store brand alkaline batteries.",
+    "rating": 3,
+    "sentiment": "NEUTRAL",
+    "product": "AmazonBasics AAA Performance Alkaline Batteries (36 Count)",
+    "cluster": "Batteries & Household",
+    "confidence": 0.995
+  },
+  {
+    "text": "Bought it in order to watch NBC but the NBC app isn't compatible, so now I have a paperweight.",
+    "rating": 2,
+    "sentiment": "NEGATIVE",
+    "product": "Fire HD 8 Tablet with Alexa, 8 HD Display, 16 GB, Tangerine - with Special Offer",
+    "cluster": "Fire Tablets",
+    "confidence": 0.999
+  },
+  {
+    "text": "This is a nice bare-bones reading device. Easy to set up and use. My greatest issue is that it isn't back lit so it can't be used w/o a light on in the room. Returning it an purchasing a paperwhite instead.",
+    "rating": 4,
+    "sentiment": "NEUTRAL",
+    "product": "All-New Kindle E-reader - Black, 6\" Glare-Free Touchscreen Display, Wi-Fi - Incl",
+    "cluster": "E-Readers",
+    "confidence": 0.504
+  },
+  {
+    "text": "Too many zippers IMO. Good quality, but the zippers frequently get caught making it slightly annoying to open.",
+    "rating": 3,
+    "sentiment": "NEUTRAL",
+    "product": "AmazonBasics Backpack for Laptops up to 17-inches",
+    "cluster": "Accessories",
+    "confidence": 0.993
+  },
+  {
+    "text": "Didn't have some of the features I was looking for. Returned it the next day. May be good for others",
+    "rating": 2,
+    "sentiment": "NEGATIVE",
+    "product": "All-New Fire HD 8 Tablet, 8 HD Display, Wi-Fi, 16 GB - Includes Special Offers, ",
+    "cluster": "Fire Tablets",
+    "confidence": 0.997
+  },
+  {
+    "text": "Great to have as a backup",
+    "rating": 4,
+    "sentiment": "POSITIVE",
+    "product": "AmazonBasics AA Performance Alkaline Batteries (48 Count) - Packaging May Vary",
+    "cluster": "Batteries & Household",
+    "confidence": 0.998
+  },
+  {
+    "text": "Works excellent love it. Easy to use",
+    "rating": 5,
+    "sentiment": "POSITIVE",
+    "product": "Amazon Fire TV Gaming Edition Streaming Media Player",
+    "cluster": "Media & Home",
+    "confidence": 0.999
+  },
+  {
+    "text": "arrived on time well packed disappointed with quality does the job it was only for keeping dust off second laptop,a very tight fit though",
+    "rating": 2,
+    "sentiment": "NEGATIVE",
+    "product": "AmazonBasics 15.6-Inch Laptop and Tablet Bag",
+    "cluster": "Accessories",
+    "confidence": 0.999
+  },
+  {
+    "text": "it would not load my books proper. took a dozen tries erasing an dreregistering. screen too dark",
+    "rating": 2,
+    "sentiment": "NEGATIVE",
+    "product": "Kindle E-reader - White, 6 Glare-Free Touchscreen Display, Wi-Fi - Includes Spec",
+    "cluster": "E-Readers",
+    "confidence": 0.999
+  },
+  {
+    "text": "Tablet is for my 2 year old son and it has great learning game so for him! He's learning to read and so much more!",
+    "rating": 5,
+    "sentiment": "POSITIVE",
+    "product": "Fire Kids Edition Tablet, 7 Display, Wi-Fi, 16 GB, Pink Kid-Proof Case",
+    "cluster": "Fire Tablets",
+    "confidence": 0.998
+  },
+  {
+    "text": "The ads that pop up constantly make us almost unusable for kids.",
+    "rating": 1,
+    "sentiment": "NEGATIVE",
+    "product": "All-New Fire HD 8 Kids Edition Tablet, 8 HD Display, 32 GB, Pink Kid-Proof Case",
+    "cluster": "Fire Tablets",
+    "confidence": 0.998
+  },
+  {
+    "text": "Very nice packaging! Love the price and the nice convenient packaging makes it easy to store, find and keep track of the batteries. Great job Amazon!",
+    "rating": 5,
+    "sentiment": "POSITIVE",
+    "product": "AmazonBasics AA Performance Alkaline Batteries (48 Count) - Packaging May Vary",
+    "cluster": "Batteries & Household",
+    "confidence": 0.999
+  },
+  {
+    "text": "Super slow, not of decent quality.I would not buy another. Memory on it is lacking for 8 gig. I will not recommend it to anyone",
+    "rating": 2,
+    "sentiment": "NEGATIVE",
+    "product": "Fire Kids Edition Tablet, 7 Display, Wi-Fi, 16 GB, Pink Kid-Proof Case",
+    "cluster": "Fire Tablets",
+    "confidence": 0.999
+  },
+  {
+    "text": "The tap is a great concept, I love my echo so a portable one was that much better. However the sound is pretty terrible, no bass and can be scratchy.. It was a good concept just poor execution.",
+    "rating": 2,
+    "sentiment": "NEUTRAL",
+    "product": "Amazon Tap Smart Assistant Alexaenabled (black) Brand New",
+    "cluster": "Smart Speakers",
+    "confidence": 0.991
+  },
+  {
+    "text": "Good, but not overall as capable or comprehensive as I was hoping. Will continue to explore capabilities and Apps.",
+    "rating": 4,
+    "sentiment": "NEUTRAL",
+    "product": "Amazon Tap Smart Assistant Alexaenabled (black) Brand New",
+    "cluster": "Smart Speakers",
+    "confidence": 0.995
+  },
+  {
+    "text": "This thing is pretty cool. My nephew is pretty rough on this thing and it holds up. Nice job on the heavy duty case. It is a little slow though.",
+    "rating": 5,
+    "sentiment": "POSITIVE",
+    "product": "Fire Kids Edition Tablet, 7 Display, Wi-Fi, 16 GB, Blue Kid-Proof Case",
+    "cluster": "Fire Tablets",
+    "confidence": 0.996
+  },
+  {
+    "text": "Love not having to carry books and being able to get a variety of books.",
+    "rating": 5,
+    "sentiment": "POSITIVE",
+    "product": "Kindle E-reader - White, 6 Glare-Free Touchscreen Display, Wi-Fi - Includes Spec",
+    "cluster": "E-Readers",
+    "confidence": 0.998
+  },
+  {
+    "text": "Lasted less than half the time of a Duracell alkaline battery in the same conditions. (LED candles, on continuously).",
+    "rating": 1,
+    "sentiment": "NEGATIVE",
+    "product": "AmazonBasics AAA Performance Alkaline Batteries (36 Count)",
+    "cluster": "Batteries & Household",
+    "confidence": 0.999
+  },
+  {
+    "text": "Love the Dot, Hate the Tap Portable! This device will not hold a charge for even one day. The dots are amazing though.",
+    "rating": 2,
+    "sentiment": "NEGATIVE",
+    "product": "Amazon Tap Smart Assistant Alexaenabled (black) Brand New",
+    "cluster": "Smart Speakers",
+    "confidence": 0.999
+  },
+  {
+    "text": "This was gift for my step son. It is easy to use and set up.",
+    "rating": 5,
+    "sentiment": "POSITIVE",
+    "product": "Fire Tablet, 7 Display, Wi-Fi, 16 GB - Includes Special Offers, Black",
+    "cluster": "Fire Tablets",
+    "confidence": 0.998
+  },
+  {
+    "text": "I was really excited for this speaker. Got it all hooked up to my echo and was ready to go. Then I listened to the music. It has no bass. If you want something the has a good range of sound, this isn't it. It is focused on treble only. No low end. I ended up getting the JBL Charge 3. Love it",
+    "rating": 3,
+    "sentiment": "NEUTRAL",
+    "product": "Amazon Tap Smart Assistant Alexaenabled (black) Brand New",
+    "cluster": "Smart Speakers",
+    "confidence": 0.981
+  },
+  {
+    "text": "Second purchase of an amazon battery product and just as disappointing as the first. Batteries don't last very long and they quickly leak battery acid. Installed for less than 1 year and already leaking in two separate devices stored in different conditions. Will never buy amazon batteries again. Definitely not worth the few dollars saved.",
+    "rating": 1,
+    "sentiment": "NEGATIVE",
+    "product": "AmazonBasics AAA Performance Alkaline Batteries (36 Count)",
+    "cluster": "Batteries & Household",
+    "confidence": 0.999
+  },
+  {
+    "text": "Hey it's only a wall charger...Hey it's only a wall charger...Hey it's only a wall charger... Yet to fail, nough said.",
+    "rating": 5,
+    "sentiment": "POSITIVE",
+    "product": "Amazon 9W PowerFast Official OEM USB Charger and Power Adapter for Fire Tablets ",
+    "cluster": "Accessories",
+    "confidence": 0.996
+  },
+  {
+    "text": "When they first announced the Kindle Oasis, I did not have much of a desire to upgrade from my 1st generation Kindle Paperwhite. Just as I felt when they announced the Voyage.I read a lot, so my Kindle travels with me throughout the day most of the time. I have never had an issue with battery life, I have only had it get really low a few times (typically when I was traveling). So again, I originally did not see a lot of the value to the Oasis.As the reviews for the Oasis came out, I started to r",
+    "rating": 5,
+    "sentiment": "NEUTRAL",
+    "product": "Kindle Oasis E-reader with Leather Charging Cover - Black, 6 High-Resolution Dis",
+    "cluster": "E-Readers",
+    "confidence": 0.574
+  },
+  {
+    "text": "Pros: Allows you to cut your cable. With many apps to download and many apps that allow you free use of services such as streaming as long as you have a Cable provided (at least for the internet), you can log in and stream. You can use apps like Kodi and TubiTV to watch many shows. My favorite is TubiTV. Yes, there are commercials but not as many as other services.Buy this, check it out, enjoy your freedom from cable TV! Cons: Don't really have any complaints.",
+    "rating": 5,
+    "sentiment": "POSITIVE",
+    "product": "Fire TV Stick Streaming Media Player Pair Kit",
+    "cluster": "Media & Home",
+    "confidence": 0.997
+  },
+  {
+    "text": "My first ebook reader. Read some reviews, decided to go with this because of the backlight and adaptive light. Sometimes I have to adjust the light manually but no biggie, quick and easy on the eyes.",
+    "rating": 5,
+    "sentiment": "POSITIVE",
+    "product": "Kindle Voyage E-reader, 6 High-Resolution Display (300 ppi) with Adaptive Built-",
+    "cluster": "E-Readers",
+    "confidence": 0.998
+  },
+  {
+    "text": "Wish it didn't have all of the apps on the home page",
+    "rating": 5,
+    "sentiment": "NEUTRAL",
+    "product": "All-New Fire HD 8 Tablet with Alexa, 8 HD Display, 16 GB, Marine Blue - with Spe",
+    "cluster": "Fire Tablets",
+    "confidence": 0.853
+  },
+  {
+    "text": "Alexa works great, but the the sound quality of this speaker is terrible, your much better off with a echo dot and bose sound link mini set up.",
+    "rating": 3,
+    "sentiment": "NEUTRAL",
+    "product": "Amazon Tap Smart Assistant Alexaenabled (black) Brand New",
+    "cluster": "Smart Speakers",
+    "confidence": 0.981
+  },
+  {
+    "text": "Great for the price but you get what you pay for",
+    "rating": 4,
+    "sentiment": "NEUTRAL",
+    "product": "AmazonBasics AAA Performance Alkaline Batteries (36 Count)",
+    "cluster": "Batteries & Household",
+    "confidence": 0.682
+  },
+  {
+    "text": "It's a nice item but really there's other things that do the same thing. So we actually returned it.",
+    "rating": 5,
+    "sentiment": "NEUTRAL",
+    "product": "Amazon Tap Smart Assistant Alexaenabled (black) Brand New",
+    "cluster": "Smart Speakers",
+    "confidence": 0.981
+  },
+  {
+    "text": "Works good for a plug in for the kindle fire that I bought",
+    "rating": 5,
+    "sentiment": "POSITIVE",
+    "product": "Amazon 9W PowerFast Official OEM USB Charger and Power Adapter for Fire Tablets ",
+    "cluster": "Accessories",
+    "confidence": 0.994
+  },
+  {
+    "text": "Already have a few other Alexas. Wanted on to be portable around the house without having to plug in or connect to another speaker. Works as expected.",
+    "rating": 5,
+    "sentiment": "POSITIVE",
+    "product": "Amazon Tap Smart Assistant Alexaenabled (black) Brand New",
+    "cluster": "Smart Speakers",
+    "confidence": 0.997
+  },
+  {
+    "text": "Absolutely love my new Kindle Voyager. Lightweight and compact size makes it easier to carry with me everywhere I go. Wish I had bought one sooner.",
+    "rating": 5,
+    "sentiment": "POSITIVE",
+    "product": "Kindle Voyage E-reader, 6 High-Resolution Display (300 ppi) with Adaptive Built-",
+    "cluster": "E-Readers",
+    "confidence": 0.999
+  },
+  {
+    "text": "Kindle Oasis is phenomenal... It is portable size so it fits almost anywhere when I travel, the book-like screen doesn't bother my eyes after long periods of time of reading, I can modify the font and size to my wants and needs, you can conveniently connect to your Goodreads account to view your bookshelves and all of my purchases sync perfectly. The color Merlot is beautiful and I've had it for three months and traveled with it and there have been no damages. The battery life is so long I have ",
+    "rating": 5,
+    "sentiment": "POSITIVE",
+    "product": "Kindle Oasis E-reader with Leather Charging Cover - Black, 6 High-Resolution Dis",
+    "cluster": "E-Readers",
+    "confidence": 0.999
+  },
+  {
+    "text": "This bag does not fit my 17-inch laptop, although mine is a little bigger than many. You would need a relatively thin 17-inch laptop to make this work. Also, as some other reviewers described, it has a cheap-feeling inner lining. I also do not like that the zippers for the main pocket do not extend toward the base farther, so this does not open as wide as I would like. It will get the job done and serves as a replacement for my previous backpack, which was falling apart, but I do not think I wou",
+    "rating": 3,
+    "sentiment": "NEUTRAL",
+    "product": "AmazonBasics Backpack for Laptops up to 17-inches",
+    "cluster": "Accessories",
+    "confidence": 0.982
+  },
+  {
+    "text": "This charger is improved from the other one I had. It takes less time to fully charge and the charge lasts longer.",
+    "rating": 5,
+    "sentiment": "POSITIVE",
+    "product": "Amazon 9W PowerFast Official OEM USB Charger and Power Adapter for Fire Tablets ",
+    "cluster": "Accessories",
+    "confidence": 0.998
+  },
+  {
+    "text": "I was in line at a store where a elder women was trying to return a Amazon tablet. The customer service rep told her she used a charging block that had caused damage to the tablet and it wasn't covered for replacement. I happy to purchase a charging block that was made for my device.",
+    "rating": 5,
+    "sentiment": "POSITIVE",
+    "product": "Amazon 9W PowerFast Official OEM USB Charger and Power Adapter for Fire Tablets ",
+    "cluster": "Accessories",
+    "confidence": 0.996
+  },
+  {
+    "text": "It's unfair for me to rate this product cause I have not even taken it out of the box to set it up.",
+    "rating": 3,
+    "sentiment": "NEUTRAL",
+    "product": "All-New Fire HD 8 Tablet, 8 HD Display, Wi-Fi, 16 GB - Includes Special Offers, ",
+    "cluster": "Fire Tablets",
+    "confidence": 0.992
+  },
+  {
+    "text": "BETTER THAN NOTHING, But not as good as the CASE LOGIC: ELS-111 11 Chromebook/Surface 3 Sleeve. Fits the MacAir 11.6 perfect. The Amazon sleeve is simply neoprene, which snags and has so much friction, it doesn't easily slide in/out of my backpack. The Amazon quality is decent, but looks like a beer can cozy (koozie) compared to the CASE LOGIC. The CASE LOGIC IS NOT just NEOPRENE! It is highly protective, light, low density foam encased in canvas. It's more durable and slide in and out of my bac",
+    "rating": 3,
+    "sentiment": "NEUTRAL",
+    "product": "AmazonBasics 11.6-Inch Laptop Sleeve",
+    "cluster": "Accessories",
+    "confidence": 0.989
+  },
+  {
+    "text": "Could not get it to work properly. I put the app on my phone and my computer. I reached out for help. They responded and it still didn't work. I finally got frustrated and returned it.",
+    "rating": 1,
+    "sentiment": "NEGATIVE",
+    "product": "Amazon Tap Smart Assistant Alexaenabled (black) Brand New",
+    "cluster": "Smart Speakers",
+    "confidence": 0.999
+  },
+  {
+    "text": "Best buy in great batteries. Last a long time.",
+    "rating": 5,
+    "sentiment": "POSITIVE",
+    "product": "AmazonBasics AAA Performance Alkaline Batteries (36 Count)",
+    "cluster": "Batteries & Household",
+    "confidence": 0.999
+  },
+  {
+    "text": "These batteries die very fast. These are used in a remote and I have replaced them 4 times within a year. The previous batteries lasted 3 years.",
+    "rating": 1,
+    "sentiment": "NEGATIVE",
+    "product": "AmazonBasics AAA Performance Alkaline Batteries (36 Count)",
+    "cluster": "Batteries & Household",
+    "confidence": 0.999
+  },
+  {
+    "text": "I got this as gift for my husband and he loves it! Excellent e-reader!",
+    "rating": 5,
+    "sentiment": "POSITIVE",
+    "product": "All-New Kindle Oasis E-reader - 7 High-Resolution Display (300 ppi), Waterproof,",
+    "cluster": "E-Readers",
+    "confidence": 0.999
+  },
+  {
+    "text": "I haven't used any other kindle before, but this kindle was made to do its job and it does it properly. It is sleek, lightweight and sturdy. I love putting it in my bag and taking it with me wherever I go - just in case I get a chance to read. Like it says in the description, you can download books and read it anywhere - you don't need wifi to read. Battery life is great. It has a matted screen and you can make the font as big or as small as you want. The down side is that the screen is small, s",
+    "rating": 5,
+    "sentiment": "POSITIVE",
+    "product": "Kindle E-reader - White, 6 Glare-Free Touchscreen Display, Wi-Fi - Includes Spec",
+    "cluster": "E-Readers",
+    "confidence": 0.998
+  },
+  {
+    "text": "This is not an upgrade by any means! My three year old kindle outperformed Oasis.Battery life better than a week with the lights on lowest setting Magnetic connector is poorly designed and grows weak Two pieces to keep up with; unsnaps constantly Amazon Customer Services promises it will resolved in an update",
+    "rating": 1,
+    "sentiment": "NEGATIVE",
+    "product": "Kindle Oasis E-reader with Leather Charging Cover - Walnut, 6 High-Resolution Di",
+    "cluster": "E-Readers",
+    "confidence": 0.999
+  },
+  {
+    "text": "With an Income Tax Preparation practice I'm on my laptop 10 hours a day entering data. Using the laptop keyboard and mouse pad on the flat and level angle that laptops offer is stressful. An elevated keyboard serves the purpose of 'tilting' the keyboard into a natural position for typing. This AmazonBasic Ventilated and Adjustable laptop stand is perfect and produces the effect of a typewriter slant for those who grew up on IBM Selectrics or Royals. Fully adjustable for just about any angle you ",
+    "rating": 5,
+    "sentiment": "POSITIVE",
+    "product": "AmazonBasics Ventilated Adjustable Laptop Stand",
+    "cluster": "Accessories",
+    "confidence": 0.997
+  },
+  {
+    "text": "Great product they last a long time!",
+    "rating": 5,
+    "sentiment": "POSITIVE",
+    "product": "AmazonBasics AA Performance Alkaline Batteries (48 Count) - Packaging May Vary",
+    "cluster": "Batteries & Household",
+    "confidence": 0.999
+  }
+]

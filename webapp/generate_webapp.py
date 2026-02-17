@@ -26,7 +26,8 @@ import pandas as pd
 import numpy as np
 
 # ---------- CONFIG ----------
-OUTPUT_DIR = "webapp/data"
+DATA_DIR = os.path.join(os.path.dirname(__file__), "..")  # project root (parent of webapp/)
+OUTPUT_DIR = os.path.join(os.path.dirname(__file__), "data")
 REVIEWS_SAMPLE_SIZE = 200  # reviews to include in explorer (per cluster, capped)
 
 os.makedirs(OUTPUT_DIR, exist_ok=True)
@@ -35,16 +36,26 @@ os.makedirs(OUTPUT_DIR, exist_ok=True)
 print("Loading data...")
 
 # Try clustered data first, fall back to cleaned
-if os.path.exists("data_with_clusters.csv"):
-    df = pd.read_csv("data_with_clusters.csv")
+clustered_path = os.path.join(DATA_DIR, "data_with_clusters.csv")
+cleaned_path = os.path.join(DATA_DIR, "data_cleaned.csv")
+
+if os.path.exists(clustered_path):
+    df = pd.read_csv(clustered_path)
     print(f"  Loaded data_with_clusters.csv: {len(df):,} rows")
-else:
-    df = pd.read_csv("data_cleaned.csv")
+elif os.path.exists(cleaned_path):
+    df = pd.read_csv(cleaned_path)
     print(f"  Loaded data_cleaned.csv: {len(df):,} rows")
+else:
+    raise FileNotFoundError(
+        f"No data file found. Expected one of:\n"
+        f"  {clustered_path}\n"
+        f"  {cleaned_path}"
+    )
 
 # Load predictions
-if os.path.exists("data_with_predictions_v2.csv"):
-    pred_df = pd.read_csv("data_with_predictions_v2.csv")
+pred_path = os.path.join(DATA_DIR, "data_with_predictions_v2.csv")
+if os.path.exists(pred_path):
+    pred_df = pd.read_csv(pred_path)
     if "predicted_label" in pred_df.columns:
         df["predicted_label"] = pred_df["predicted_label"]
         df["predicted_score"] = pred_df["predicted_score"]
@@ -52,15 +63,17 @@ if os.path.exists("data_with_predictions_v2.csv"):
 
 # Load summaries
 summaries = {}
-if os.path.exists("summaries_api.json"):
-    with open("summaries_api.json", "r", encoding="utf-8") as f:
+summaries_path = os.path.join(DATA_DIR, "summaries_api.json")
+if os.path.exists(summaries_path):
+    with open(summaries_path, "r", encoding="utf-8") as f:
         summaries = json.load(f)
     print(f"  Loaded summaries_api.json")
 
 # Load product clusters
 product_clusters = None
-if os.path.exists("product_clusters.csv"):
-    product_clusters = pd.read_csv("product_clusters.csv")
+clusters_path = os.path.join(DATA_DIR, "product_clusters.csv")
+if os.path.exists(clusters_path):
+    product_clusters = pd.read_csv(clusters_path)
     print(f"  Loaded product_clusters.csv: {len(product_clusters)} products")
 
 # ---------- 1. STATS.JSON ----------
