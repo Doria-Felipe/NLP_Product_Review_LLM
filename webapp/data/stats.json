@@ -1,0 +1,56 @@
+{
+  "total_reviews": 28332,
+  "total_products": 65,
+  "total_clusters": 6,
+  "avg_rating": 4.51,
+  "sentiment_distribution": {
+    "POSITIVE": 25476,
+    "NEGATIVE": 1648,
+    "NEUTRAL": 1208
+  },
+  "cluster_distribution": {
+    "Accessories": {
+      "review_count": 138,
+      "product_count": 11,
+      "avg_rating": 4.31
+    },
+    "Batteries & Household": {
+      "review_count": 12086,
+      "product_count": 7,
+      "avg_rating": 4.45
+    },
+    "E-Readers": {
+      "review_count": 1049,
+      "product_count": 10,
+      "avg_rating": 4.66
+    },
+    "Fire Tablets": {
+      "review_count": 14396,
+      "product_count": 20,
+      "avg_rating": 4.56
+    },
+    "Media & Home": {
+      "review_count": 31,
+      "product_count": 8,
+      "avg_rating": 4.39
+    },
+    "Smart Speakers": {
+      "review_count": 632,
+      "product_count": 9,
+      "avg_rating": 4.54
+    }
+  },
+  "rating_distribution": {
+    "1": 965,
+    "2": 616,
+    "3": 1206,
+    "4": 5648,
+    "5": 19897
+  },
+  "model_info": {
+    "classification": "RoBERTa-base (Yelp\u2192Amazon fine-tuned, class weights)",
+    "clustering": "TF-IDF + K-Means (K=6)",
+    "summarization": "claude-sonnet-4-20250514",
+    "provider": "anthropic"
+  }
+}

@@ -1,3 +1,4 @@
 .env
 models/
+.DS_Store
 t5-catblog/

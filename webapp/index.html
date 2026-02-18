@@ -1,0 +1,1187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Review Analyzer — NLP Project</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=DM+Serif+Display&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0f1117;
+            --bg-card: #1a1d27;
+            --bg-card-hover: #222635;
+            --border: #2a2e3a;
+            --text: #e2e4ea;
+            --text-muted: #8b8f9e;
+            --text-dim: #5c6070;
+            --accent: #4f8fff;
+            --accent-glow: rgba(79,143,255,0.15);
+            --positive: #34d399;
+            --negative: #f87171;
+            --neutral: #fbbf24;
+            --positive-bg: rgba(52,211,153,0.1);
+            --negative-bg: rgba(248,113,113,0.1);
+            --neutral-bg: rgba(251,191,36,0.1);
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+
+        /* --- HEADER --- */
+        header {
+            border-bottom: 1px solid var(--border);
+            padding: 1.5rem 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            position: sticky;
+            top: 0;
+            background: rgba(15,17,23,0.92);
+            backdrop-filter: blur(12px);
+            z-index: 100;
+        }
+
+        .logo {
+            font-family: 'DM Serif Display', serif;
+            font-size: 1.4rem;
+            color: var(--text);
+            letter-spacing: -0.02em;
+        }
+
+        .logo span { color: var(--accent); }
+
+        nav {
+            display: flex;
+            gap: 0.25rem;
+        }
+
+        nav button {
+            background: none;
+            border: 1px solid transparent;
+            color: var(--text-muted);
+            padding: 0.5rem 1rem;
+            border-radius: 8px;
+            cursor: pointer;
+            font-family: inherit;
+            font-size: 0.875rem;
+            font-weight: 500;
+            transition: all 0.2s;
+        }
+
+        nav button:hover {
+            color: var(--text);
+            background: var(--bg-card);
+        }
+
+        nav button.active {
+            color: var(--accent);
+            background: var(--accent-glow);
+            border-color: rgba(79,143,255,0.3);
+        }
+
+        /* --- MAIN --- */
+        main {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .page { display: none; }
+        .page.active { display: block; }
+
+        /* --- DASHBOARD --- */
+        .stat-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+
+        .stat-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 1.25rem 1.5rem;
+            transition: transform 0.2s, border-color 0.2s;
+        }
+
+        .stat-card:hover {
+            transform: translateY(-2px);
+            border-color: rgba(79,143,255,0.3);
+        }
+
+        .stat-label {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            color: var(--text-muted);
+            margin-bottom: 0.5rem;
+        }
+
+        .stat-value {
+            font-family: 'DM Serif Display', serif;
+            font-size: 2rem;
+            color: var(--text);
+            letter-spacing: -0.02em;
+        }
+
+        .stat-value .unit {
+            font-size: 1rem;
+            color: var(--text-muted);
+            font-family: 'DM Sans', sans-serif;
+        }
+
+        /* --- SECTION HEADERS --- */
+        .section-title {
+            font-family: 'DM Serif Display', serif;
+            font-size: 1.5rem;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.02em;
+        }
+
+        .section-subtitle {
+            color: var(--text-muted);
+            font-size: 0.875rem;
+            margin-bottom: 1.5rem;
+        }
+
+        /* --- CHARTS --- */
+        .chart-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+        }
+
+        @media (max-width: 768px) {
+            .chart-row { grid-template-columns: 1fr; }
+            nav { flex-wrap: wrap; }
+            header { flex-direction: column; gap: 1rem; }
+        }
+
+        .chart-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 1.5rem;
+        }
+
+        .chart-card h3 {
+            font-size: 0.875rem;
+            font-weight: 500;
+            color: var(--text-muted);
+            margin-bottom: 1rem;
+        }
+
+        /* Bar chart */
+        .bar-chart { display: flex; flex-direction: column; gap: 0.75rem; }
+
+        .bar-row {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+
+        .bar-label {
+            min-width: 140px;
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            text-align: right;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .bar-track {
+            flex: 1;
+            height: 24px;
+            background: rgba(255,255,255,0.03);
+            border-radius: 4px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .bar-fill {
+            height: 100%;
+            border-radius: 4px;
+            background: var(--accent);
+            transition: width 0.8s ease;
+            min-width: 2px;
+        }
+
+        .bar-value {
+            min-width: 50px;
+            font-size: 0.8rem;
+            color: var(--text-dim);
+            font-variant-numeric: tabular-nums;
+        }
+
+        /* Sentiment dots */
+        .sentiment-bar {
+            display: flex;
+            height: 32px;
+            border-radius: 6px;
+            overflow: hidden;
+            margin-bottom: 0.5rem;
+        }
+
+        .sentiment-bar .seg-positive { background: var(--positive); }
+        .sentiment-bar .seg-negative { background: var(--negative); }
+        .sentiment-bar .seg-neutral { background: var(--neutral); }
+
+        .sentiment-legend {
+            display: flex;
+            gap: 1.5rem;
+            font-size: 0.8rem;
+        }
+
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 0.4rem;
+            color: var(--text-muted);
+        }
+
+        .legend-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+        }
+
+        /* --- CLUSTER CARDS --- */
+        .cluster-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+
+        .cluster-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 1.5rem;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .cluster-card:hover {
+            border-color: var(--accent);
+            background: var(--bg-card-hover);
+        }
+
+        .cluster-card h3 {
+            font-family: 'DM Serif Display', serif;
+            font-size: 1.15rem;
+            margin-bottom: 0.75rem;
+        }
+
+        .cluster-meta {
+            display: flex;
+            gap: 1rem;
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            margin-bottom: 1rem;
+        }
+
+        .cluster-meta span {
+            display: flex;
+            align-items: center;
+            gap: 0.3rem;
+        }
+
+        /* --- DETAIL PANEL --- */
+        .detail-panel {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 2rem;
+            display: none;
+            margin-bottom: 2rem;
+        }
+
+        .detail-panel.active { display: block; }
+
+        .detail-panel .back-btn {
+            background: none;
+            border: 1px solid var(--border);
+            color: var(--text-muted);
+            padding: 0.4rem 0.8rem;
+            border-radius: 6px;
+            cursor: pointer;
+            font-family: inherit;
+            font-size: 0.8rem;
+            margin-bottom: 1rem;
+            transition: all 0.2s;
+        }
+
+        .detail-panel .back-btn:hover {
+            border-color: var(--accent);
+            color: var(--accent);
+        }
+
+        .summary-content {
+            line-height: 1.8;
+            color: var(--text);
+            font-size: 0.925rem;
+        }
+
+        .summary-content h1,
+        .summary-content h2 {
+            font-family: 'DM Serif Display', serif;
+            margin: 1.5rem 0 0.75rem 0;
+            letter-spacing: -0.02em;
+        }
+
+        .summary-content h1 { font-size: 1.4rem; }
+        .summary-content h2 { font-size: 1.15rem; }
+        .summary-content h3 { font-size: 1rem; margin: 1rem 0 0.5rem 0; }
+
+        .summary-content p { margin-bottom: 0.75rem; }
+
+        .summary-content strong { color: var(--accent); font-weight: 600; }
+
+        /* --- PRODUCT LIST --- */
+        .product-filters {
+            display: flex;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+            margin-bottom: 1.5rem;
+        }
+
+        .filter-btn {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            color: var(--text-muted);
+            padding: 0.4rem 0.9rem;
+            border-radius: 20px;
+            cursor: pointer;
+            font-family: inherit;
+            font-size: 0.8rem;
+            transition: all 0.2s;
+        }
+
+        .filter-btn:hover,
+        .filter-btn.active {
+            border-color: var(--accent);
+            color: var(--accent);
+            background: var(--accent-glow);
+        }
+
+        .product-table {
+            width: 100%;
+            border-collapse: separate;
+            border-spacing: 0 0.4rem;
+        }
+
+        .product-table th {
+            text-align: left;
+            font-size: 0.7rem;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            color: var(--text-dim);
+            padding: 0.5rem 1rem;
+        }
+
+        .product-table td {
+            background: var(--bg-card);
+            padding: 0.85rem 1rem;
+            font-size: 0.875rem;
+            border-top: 1px solid var(--border);
+            border-bottom: 1px solid var(--border);
+        }
+
+        .product-table tr td:first-child {
+            border-left: 1px solid var(--border);
+            border-radius: 8px 0 0 8px;
+        }
+
+        .product-table tr td:last-child {
+            border-right: 1px solid var(--border);
+            border-radius: 0 8px 8px 0;
+        }
+
+        .product-table tr {
+            cursor: pointer;
+            transition: all 0.15s;
+        }
+
+        .product-table tr:hover td {
+            background: var(--bg-card-hover);
+            border-color: rgba(79,143,255,0.2);
+        }
+
+        .product-name {
+            max-width: 300px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
+        .rating-stars {
+            color: var(--neutral);
+            font-size: 0.8rem;
+            letter-spacing: 1px;
+        }
+
+        .badge {
+            display: inline-block;
+            font-size: 0.7rem;
+            padding: 0.2rem 0.5rem;
+            border-radius: 4px;
+            font-weight: 500;
+        }
+
+        .badge-positive { background: var(--positive-bg); color: var(--positive); }
+        .badge-negative { background: var(--negative-bg); color: var(--negative); }
+        .badge-neutral { background: var(--neutral-bg); color: var(--neutral); }
+
+        /* --- REVIEWS EXPLORER --- */
+        .review-controls {
+            display: flex;
+            gap: 0.75rem;
+            flex-wrap: wrap;
+            margin-bottom: 1.5rem;
+            align-items: center;
+        }
+
+        .review-controls select,
+        .review-controls input {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            color: var(--text);
+            padding: 0.5rem 0.75rem;
+            border-radius: 8px;
+            font-family: inherit;
+            font-size: 0.85rem;
+        }
+
+        .review-controls select:focus,
+        .review-controls input:focus {
+            outline: none;
+            border-color: var(--accent);
+        }
+
+        .review-list { display: flex; flex-direction: column; gap: 0.75rem; }
+
+        .review-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            padding: 1.25rem;
+            transition: border-color 0.2s;
+        }
+
+        .review-card:hover {
+            border-color: var(--border);
+        }
+
+        .review-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 0.5rem;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+
+        .review-product {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            max-width: 400px;
+        }
+
+        .review-text {
+            font-size: 0.9rem;
+            line-height: 1.7;
+            color: var(--text);
+        }
+
+        .review-footer {
+            display: flex;
+            gap: 1rem;
+            margin-top: 0.5rem;
+            font-size: 0.75rem;
+            color: var(--text-dim);
+        }
+
+        /* --- MODEL INFO --- */
+        .model-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .model-card h3 {
+            font-size: 0.9rem;
+            font-weight: 600;
+            margin-bottom: 0.75rem;
+        }
+
+        .model-detail {
+            display: flex;
+            justify-content: space-between;
+            padding: 0.4rem 0;
+            font-size: 0.85rem;
+            border-bottom: 1px solid rgba(255,255,255,0.03);
+        }
+
+        .model-detail:last-child { border: none; }
+        .model-detail .key { color: var(--text-muted); }
+        .model-detail .val { color: var(--text); font-weight: 500; }
+
+        /* --- PAGINATION --- */
+        .pagination {
+            display: flex;
+            justify-content: center;
+            gap: 0.5rem;
+            margin-top: 1.5rem;
+        }
+
+        .pagination button {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            color: var(--text-muted);
+            padding: 0.4rem 0.8rem;
+            border-radius: 6px;
+            cursor: pointer;
+            font-family: inherit;
+            font-size: 0.8rem;
+        }
+
+        .pagination button:hover,
+        .pagination button.active {
+            border-color: var(--accent);
+            color: var(--accent);
+        }
+
+        .pagination button:disabled {
+            opacity: 0.3;
+            cursor: not-allowed;
+        }
+
+        /* --- LOADING --- */
+        .loading {
+            text-align: center;
+            padding: 3rem;
+            color: var(--text-dim);
+        }
+
+        .loading::after {
+            content: '';
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border: 2px solid var(--border);
+            border-top-color: var(--accent);
+            border-radius: 50%;
+            animation: spin 0.8s linear infinite;
+            margin-left: 0.5rem;
+            vertical-align: middle;
+        }
+
+        @keyframes spin { to { transform: rotate(360deg); } }
+
+        /* --- FOOTER --- */
+        footer {
+            border-top: 1px solid var(--border);
+            padding: 1.5rem 2rem;
+            text-align: center;
+            font-size: 0.75rem;
+            color: var(--text-dim);
+            margin-top: 3rem;
+        }
+
+        footer a { color: var(--accent); text-decoration: none; }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="logo">Review<span>Analyzer</span></div>
+    <nav id="nav">
+        <button class="active" data-page="dashboard">Dashboard</button>
+        <button data-page="clusters">Categories</button>
+        <button data-page="products">Products</button>
+        <button data-page="reviews">Reviews</button>
+        <button data-page="about">About</button>
+    </nav>
+</header>
+
+<main>
+    <!-- DASHBOARD -->
+    <div id="page-dashboard" class="page active">
+        <div class="loading" id="loading-dashboard">Loading dashboard data</div>
+    </div>
+
+    <!-- CLUSTERS -->
+    <div id="page-clusters" class="page">
+        <h2 class="section-title">Product Categories</h2>
+        <p class="section-subtitle">AI-generated recommendation articles per product cluster</p>
+        <div id="cluster-detail" class="detail-panel"></div>
+        <div id="cluster-grid" class="cluster-grid"></div>
+    </div>
+
+    <!-- PRODUCTS -->
+    <div id="page-products" class="page">
+        <h2 class="section-title">All Products</h2>
+        <p class="section-subtitle">65 Amazon products with review stats and AI summaries</p>
+        <div id="product-filters" class="product-filters"></div>
+        <div id="product-detail" class="detail-panel"></div>
+        <table class="product-table">
+            <thead>
+                <tr>
+                    <th>Product</th>
+                    <th>Category</th>
+                    <th>Reviews</th>
+                    <th>Rating</th>
+                    <th>Sentiment</th>
+                </tr>
+            </thead>
+            <tbody id="product-tbody"></tbody>
+        </table>
+    </div>
+
+    <!-- REVIEWS -->
+    <div id="page-reviews" class="page">
+        <h2 class="section-title">Review Explorer</h2>
+        <p class="section-subtitle">Browse sample reviews with model predictions</p>
+        <div class="review-controls">
+            <select id="review-cluster-filter"><option value="all">All Categories</option></select>
+            <select id="review-sentiment-filter">
+                <option value="all">All Sentiments</option>
+                <option value="POSITIVE">Positive</option>
+                <option value="NEGATIVE">Negative</option>
+                <option value="NEUTRAL">Neutral</option>
+            </select>
+            <select id="review-rating-filter">
+                <option value="all">All Ratings</option>
+                <option value="5">5 Stars</option>
+                <option value="4">4 Stars</option>
+                <option value="3">3 Stars</option>
+                <option value="2">2 Stars</option>
+                <option value="1">1 Star</option>
+            </select>
+            <input type="text" id="review-search" placeholder="Search reviews..." style="flex:1; min-width:150px;">
+            <span id="review-count" style="font-size:0.8rem; color:var(--text-dim);"></span>
+        </div>
+        <div id="review-list" class="review-list"></div>
+        <div id="review-pagination" class="pagination"></div>
+    </div>
+
+    <!-- ABOUT -->
+    <div id="page-about" class="page">
+        <h2 class="section-title">About This Project</h2>
+        <p class="section-subtitle">Project 3: NLP Business Case — Group 4, IronHack AI Engineering Bootcamp</p>
+        <div id="about-content"></div>
+    </div>
+</main>
+
+<footer>
+    NLP Business Case — IronHack AI Engineering Bootcamp &nbsp;|&nbsp;
+    Group 4: Krzysztof Giwojno & Felipe Doria
+</footer>
+
+<script>
+// ========================================================
+// APP STATE
+// ========================================================
+let DATA = { stats: null, clusters: null, products: null, reviews: null };
+let currentReviewPage = 0;
+const REVIEWS_PER_PAGE = 20;
+
+// ========================================================
+// DATA LOADING
+// ========================================================
+async function loadJSON(file) {
+    const res = await fetch(`data/${file}`);
+    if (!res.ok) throw new Error(`Failed to load ${file}`);
+    return res.json();
+}
+
+async function initApp() {
+    try {
+        [DATA.stats, DATA.clusters, DATA.products, DATA.reviews] = await Promise.all([
+            loadJSON('stats.json'),
+            loadJSON('clusters.json'),
+            loadJSON('products.json'),
+            loadJSON('reviews_sample.json')
+        ]);
+        renderDashboard();
+        renderClusters();
+        renderProducts();
+        renderReviewFilters();
+        renderReviews();
+        renderAbout();
+    } catch (e) {
+        document.getElementById('loading-dashboard').textContent =
+            'Error loading data. Make sure the data/ folder contains stats.json, clusters.json, products.json, and reviews_sample.json.';
+        console.error(e);
+    }
+}
+
+// ========================================================
+// NAVIGATION
+// ========================================================
+document.getElementById('nav').addEventListener('click', (e) => {
+    if (e.target.tagName !== 'BUTTON') return;
+    document.querySelectorAll('nav button').forEach(b => b.classList.remove('active'));
+    document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+    e.target.classList.add('active');
+    document.getElementById(`page-${e.target.dataset.page}`).classList.add('active');
+});
+
+// ========================================================
+// RENDER: DASHBOARD
+// ========================================================
+function renderDashboard() {
+    const s = DATA.stats;
+    const container = document.getElementById('page-dashboard');
+
+    const sentTotal = Object.values(s.sentiment_distribution).reduce((a,b) => a+b, 0);
+    const pctPos = ((s.sentiment_distribution.POSITIVE || 0) / sentTotal * 100).toFixed(1);
+    const pctNeg = ((s.sentiment_distribution.NEGATIVE || 0) / sentTotal * 100).toFixed(1);
+    const pctNeu = ((s.sentiment_distribution.NEUTRAL || 0) / sentTotal * 100).toFixed(1);
+
+    // Cluster bar chart data
+    const clusterEntries = Object.entries(s.cluster_distribution)
+        .sort((a,b) => b[1].review_count - a[1].review_count);
+    const maxReviews = clusterEntries[0]?.[1]?.review_count || 1;
+
+    // Rating bar chart data
+    const ratingEntries = Object.entries(s.rating_distribution).sort((a,b) => b[0] - a[0]);
+    const maxRating = Math.max(...ratingEntries.map(e => e[1]));
+
+    container.innerHTML = `
+        <h2 class="section-title">Dashboard</h2>
+        <p class="section-subtitle">Project 3: NLP Business Case — Group 4, IronHack AI Engineering Bootcamp</p>
+
+        <div class="stat-grid">
+            <div class="stat-card">
+                <div class="stat-label">Total Reviews</div>
+                <div class="stat-value">${s.total_reviews.toLocaleString()}</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Products</div>
+                <div class="stat-value">${s.total_products}</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Categories</div>
+                <div class="stat-value">${s.total_clusters}</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Average Rating</div>
+                <div class="stat-value">${s.avg_rating} <span class="unit">/ 5</span></div>
+            </div>
+        </div>
+
+        <div class="chart-row">
+            <div class="chart-card">
+                <h3>Sentiment Distribution</h3>
+                <div class="sentiment-bar">
+                    <div class="seg-positive" style="width:${pctPos}%"></div>
+                    <div class="seg-neutral" style="width:${pctNeu}%"></div>
+                    <div class="seg-negative" style="width:${pctNeg}%"></div>
+                </div>
+                <div class="sentiment-legend">
+                    <div class="legend-item">
+                        <div class="legend-dot" style="background:var(--positive)"></div>
+                        Positive ${pctPos}%
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-dot" style="background:var(--neutral)"></div>
+                        Neutral ${pctNeu}%
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-dot" style="background:var(--negative)"></div>
+                        Negative ${pctNeg}%
+                    </div>
+                </div>
+            </div>
+            <div class="chart-card">
+                <h3>Rating Distribution</h3>
+                <div class="bar-chart">
+                    ${ratingEntries.map(([r, c]) => `
+                        <div class="bar-row">
+                            <span class="bar-label">${'★'.repeat(parseInt(r))}${'☆'.repeat(5-parseInt(r))}</span>
+                            <div class="bar-track">
+                                <div class="bar-fill" style="width:${c/maxRating*100}%; background:${parseInt(r)>=4?'var(--positive)':parseInt(r)===3?'var(--neutral)':'var(--negative)'}"></div>
+                            </div>
+                            <span class="bar-value">${c.toLocaleString()}</span>
+                        </div>
+                    `).join('')}
+                </div>
+            </div>
+        </div>
+
+        <div class="chart-row">
+            <div class="chart-card">
+                <h3>Reviews by Category</h3>
+                <div class="bar-chart">
+                    ${clusterEntries.map(([name, d]) => `
+                        <div class="bar-row">
+                            <span class="bar-label">${name}</span>
+                            <div class="bar-track">
+                                <div class="bar-fill" style="width:${d.review_count/maxReviews*100}%"></div>
+                            </div>
+                            <span class="bar-value">${d.review_count.toLocaleString()}</span>
+                        </div>
+                    `).join('')}
+                </div>
+            </div>
+            <div class="chart-card">
+                <h3>Average Rating by Category</h3>
+                <div class="bar-chart">
+                    ${clusterEntries.map(([name, d]) => `
+                        <div class="bar-row">
+                            <span class="bar-label">${name}</span>
+                            <div class="bar-track">
+                                <div class="bar-fill" style="width:${d.avg_rating/5*100}%; background:${d.avg_rating>=4.5?'var(--positive)':d.avg_rating>=4?'var(--neutral)':'var(--negative)'}"></div>
+                            </div>
+                            <span class="bar-value">${d.avg_rating}/5</span>
+                        </div>
+                    `).join('')}
+                </div>
+            </div>
+        </div>
+    `;
+}
+
+// ========================================================
+// RENDER: CLUSTERS
+// ========================================================
+function renderClusters() {
+    const grid = document.getElementById('cluster-grid');
+    const entries = Object.entries(DATA.clusters)
+        .sort((a,b) => b[1].review_count - a[1].review_count);
+
+    grid.innerHTML = entries.map(([name, d]) => {
+        const sentTotal = Object.values(d.sentiment).reduce((a,b)=>a+b, 0);
+        const pctPos = ((d.sentiment.POSITIVE||0)/sentTotal*100).toFixed(0);
+        return `
+            <div class="cluster-card" onclick="showClusterDetail('${name.replace(/'/g,"\\'")}')">
+                <h3>${name}</h3>
+                <div class="cluster-meta">
+                    <span>${d.product_count} products</span>
+                    <span>${d.review_count.toLocaleString()} reviews</span>
+                    <span>★ ${d.avg_rating}</span>
+                    <span>${pctPos}% positive</span>
+                </div>
+                <div class="sentiment-bar" style="height:8px">
+                    <div class="seg-positive" style="width:${(d.sentiment.POSITIVE||0)/sentTotal*100}%"></div>
+                    <div class="seg-neutral" style="width:${(d.sentiment.NEUTRAL||0)/sentTotal*100}%"></div>
+                    <div class="seg-negative" style="width:${(d.sentiment.NEGATIVE||0)/sentTotal*100}%"></div>
+                </div>
+            </div>
+        `;
+    }).join('');
+}
+
+function showClusterDetail(name) {
+    const d = DATA.clusters[name];
+    const panel = document.getElementById('cluster-detail');
+    const summaryHtml = markdownToHtml(d.summary);
+
+    panel.innerHTML = `
+        <button class="back-btn" onclick="hideClusterDetail()">← Back to categories</button>
+        <h2 class="section-title" style="margin-bottom:0.5rem">${name}</h2>
+        <div class="cluster-meta" style="margin-bottom:1.5rem">
+            <span>${d.product_count} products</span>
+            <span>${d.review_count.toLocaleString()} reviews</span>
+            <span>★ ${d.avg_rating}</span>
+        </div>
+        <div class="summary-content">${summaryHtml}</div>
+    `;
+    panel.classList.add('active');
+    document.getElementById('cluster-grid').style.display = 'none';
+    panel.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+function hideClusterDetail() {
+    document.getElementById('cluster-detail').classList.remove('active');
+    document.getElementById('cluster-grid').style.display = '';
+}
+
+// ========================================================
+// RENDER: PRODUCTS
+// ========================================================
+let activeClusterFilter = 'all';
+
+function renderProducts() {
+    // Filter buttons
+    const clusters = [...new Set(DATA.products.map(p => p.cluster))];
+    const filtersEl = document.getElementById('product-filters');
+    filtersEl.innerHTML = `
+        <button class="filter-btn active" onclick="filterProducts('all')">All (${DATA.products.length})</button>
+        ${clusters.map(c => {
+            const count = DATA.products.filter(p => p.cluster === c).length;
+            return `<button class="filter-btn" onclick="filterProducts('${c.replace(/'/g,"\\'")}')">
+                ${c} (${count})
+            </button>`;
+        }).join('')}
+    `;
+
+    renderProductTable();
+}
+
+function filterProducts(cluster) {
+    activeClusterFilter = cluster;
+    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+    event.target.classList.add('active');
+    hideProductDetail();
+    renderProductTable();
+}
+
+function renderProductTable() {
+    const tbody = document.getElementById('product-tbody');
+    let products = DATA.products;
+
+    if (activeClusterFilter !== 'all') {
+        products = products.filter(p => p.cluster === activeClusterFilter);
+    }
+
+    tbody.innerHTML = products.map((p, i) => {
+        const sentTotal = Object.values(p.sentiment).reduce((a,b)=>a+b,0);
+        const pctPos = sentTotal ? ((p.sentiment.POSITIVE||0)/sentTotal*100).toFixed(0) : 0;
+        const stars = '★'.repeat(Math.round(p.avg_rating)) + '☆'.repeat(5-Math.round(p.avg_rating));
+
+        return `
+            <tr onclick="showProductDetail(${i}, '${activeClusterFilter}')">
+                <td><div class="product-name" title="${p.name}">${p.name}</div></td>
+                <td><span class="badge" style="background:var(--accent-glow);color:var(--accent)">${p.cluster}</span></td>
+                <td>${p.review_count.toLocaleString()}</td>
+                <td><span class="rating-stars">${stars}</span> ${p.avg_rating}</td>
+                <td><span class="badge badge-positive">${pctPos}% pos</span></td>
+            </tr>
+        `;
+    }).join('');
+}
+
+function showProductDetail(index, filter) {
+    let products = DATA.products;
+    if (filter !== 'all') products = products.filter(p => p.cluster === filter);
+    const p = products[index];
+    if (!p) return;
+
+    const panel = document.getElementById('product-detail');
+
+    if (!p.summary) {
+        panel.innerHTML = `
+            <button class="back-btn" onclick="hideProductDetail()">← Back to products</button>
+            <h2 class="section-title">${p.name}</h2>
+            <p style="color:var(--text-muted); margin-top:1rem;">
+                No AI summary available for this product (fewer than 20 reviews).
+            </p>
+        `;
+    } else {
+        panel.innerHTML = `
+            <button class="back-btn" onclick="hideProductDetail()">← Back to products</button>
+            <h2 class="section-title" style="font-size:1.15rem; margin-bottom:0.5rem">${p.name}</h2>
+            <div class="cluster-meta" style="margin-bottom:1.5rem">
+                <span>${p.cluster}</span>
+                <span>${p.review_count.toLocaleString()} reviews</span>
+                <span>★ ${p.avg_rating}</span>
+            </div>
+            <div class="summary-content">${markdownToHtml(p.summary)}</div>
+        `;
+    }
+
+    panel.classList.add('active');
+    panel.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+function hideProductDetail() {
+    document.getElementById('product-detail').classList.remove('active');
+}
+
+// ========================================================
+// RENDER: REVIEWS
+// ========================================================
+function renderReviewFilters() {
+    const clusterSelect = document.getElementById('review-cluster-filter');
+    const clusters = [...new Set(DATA.reviews.map(r => r.cluster))];
+    clusters.forEach(c => {
+        const opt = document.createElement('option');
+        opt.value = c;
+        opt.textContent = c;
+        clusterSelect.appendChild(opt);
+    });
+
+    // Attach event listeners
+    ['review-cluster-filter', 'review-sentiment-filter', 'review-rating-filter'].forEach(id => {
+        document.getElementById(id).addEventListener('change', () => {
+            currentReviewPage = 0;
+            renderReviews();
+        });
+    });
+
+    let searchTimeout;
+    document.getElementById('review-search').addEventListener('input', () => {
+        clearTimeout(searchTimeout);
+        searchTimeout = setTimeout(() => {
+            currentReviewPage = 0;
+            renderReviews();
+        }, 300);
+    });
+}
+
+function getFilteredReviews() {
+    const cluster = document.getElementById('review-cluster-filter').value;
+    const sentiment = document.getElementById('review-sentiment-filter').value;
+    const rating = document.getElementById('review-rating-filter').value;
+    const search = document.getElementById('review-search').value.toLowerCase();
+
+    return DATA.reviews.filter(r => {
+        if (cluster !== 'all' && r.cluster !== cluster) return false;
+        if (sentiment !== 'all' && r.sentiment !== sentiment) return false;
+        if (rating !== 'all' && r.rating !== parseInt(rating)) return false;
+        if (search && !r.text.toLowerCase().includes(search)) return false;
+        return true;
+    });
+}
+
+function renderReviews() {
+    const filtered = getFilteredReviews();
+    const start = currentReviewPage * REVIEWS_PER_PAGE;
+    const pageReviews = filtered.slice(start, start + REVIEWS_PER_PAGE);
+
+    document.getElementById('review-count').textContent = `${filtered.length} reviews`;
+
+    const list = document.getElementById('review-list');
+    list.innerHTML = pageReviews.map(r => {
+        const sentClass = r.sentiment === 'POSITIVE' ? 'badge-positive' :
+                          r.sentiment === 'NEGATIVE' ? 'badge-negative' : 'badge-neutral';
+        const stars = '★'.repeat(r.rating) + '☆'.repeat(5 - r.rating);
+        const conf = r.confidence ? `${(r.confidence*100).toFixed(0)}% conf` : '';
+
+        return `
+            <div class="review-card">
+                <div class="review-header">
+                    <div class="review-product">${r.product}</div>
+                    <div>
+                        <span class="rating-stars">${stars}</span>
+                        <span class="badge ${sentClass}">${r.sentiment}</span>
+                    </div>
+                </div>
+                <div class="review-text">${escapeHtml(r.text)}</div>
+                <div class="review-footer">
+                    <span>${r.cluster}</span>
+                    ${conf ? `<span>${conf}</span>` : ''}
+                </div>
+            </div>
+        `;
+    }).join('');
+
+    // Pagination
+    const totalPages = Math.ceil(filtered.length / REVIEWS_PER_PAGE);
+    const pag = document.getElementById('review-pagination');
+
+    if (totalPages <= 1) {
+        pag.innerHTML = '';
+        return;
+    }
+
+    let pagHtml = `<button ${currentReviewPage===0?'disabled':''} onclick="goReviewPage(${currentReviewPage-1})">Prev</button>`;
+    for (let i = 0; i < Math.min(totalPages, 10); i++) {
+        pagHtml += `<button class="${i===currentReviewPage?'active':''}" onclick="goReviewPage(${i})">${i+1}</button>`;
+    }
+    pagHtml += `<button ${currentReviewPage>=totalPages-1?'disabled':''} onclick="goReviewPage(${currentReviewPage+1})">Next</button>`;
+    pag.innerHTML = pagHtml;
+}
+
+function goReviewPage(page) {
+    currentReviewPage = page;
+    renderReviews();
+    document.getElementById('page-reviews').scrollIntoView({ behavior: 'smooth' });
+}
+
+// ========================================================
+// RENDER: ABOUT
+// ========================================================
+function renderAbout() {
+    const s = DATA.stats;
+    document.getElementById('about-content').innerHTML = `
+        <div class="chart-row" style="margin-top:1rem">
+            <div class="model-card">
+                <h3>Classification Model</h3>
+                <div class="model-detail"><span class="key">Model</span><span class="val">RoBERTa-base</span></div>
+                <div class="model-detail"><span class="key">Training</span><span class="val">Yelp 3-class → Amazon fine-tuned</span></div>
+                <div class="model-detail"><span class="key">Class weights</span><span class="val">Neg 6.0x, Neu 7.8x, Pos 0.4x</span></div>
+                <div class="model-detail"><span class="key">Test accuracy</span><span class="val">95.48%</span></div>
+                <div class="model-detail"><span class="key">Test F1 (macro)</span><span class="val">0.791</span></div>
+                <div class="model-detail"><span class="key">Early stopping</span><span class="val">Patience 3, best at step 3200</span></div>
+            </div>
+            <div class="model-card">
+                <h3>Clustering</h3>
+                <div class="model-detail"><span class="key">Method</span><span class="val">TF-IDF + K-Means</span></div>
+                <div class="model-detail"><span class="key">Features</span><span class="val">Product names + category labels</span></div>
+                <div class="model-detail"><span class="key">Clusters</span><span class="val">K=6</span></div>
+                <div class="model-detail"><span class="key">Silhouette</span><span class="val">0.2364</span></div>
+                <div class="model-detail"><span class="key">Vectorizer</span><span class="val">TF-IDF, unigrams+bigrams, 200 features</span></div>
+            </div>
+        </div>
+        <div class="chart-row">
+            <div class="model-card">
+                <h3>Summarization (API)</h3>
+                <div class="model-detail"><span class="key">Provider</span><span class="val">${s.model_info.provider}</span></div>
+                <div class="model-detail"><span class="key">Model</span><span class="val">${s.model_info.summarization}</span></div>
+                <div class="model-detail"><span class="key">Temperature</span><span class="val">0.3</span></div>
+                <div class="model-detail"><span class="key">Cluster summaries</span><span class="val">6</span></div>
+                <div class="model-detail"><span class="key">Product summaries</span><span class="val">33</span></div>
+                <div class="model-detail"><span class="key">Total cost</span><span class="val">$0.43 USD</span></div>
+            </div>
+            <div class="model-card">
+                <h3>Project Info</h3>
+                <div class="model-detail"><span class="key">Course</span><span class="val">IronHack AI Engineering Bootcamp</span></div>
+                <div class="model-detail"><span class="key">Project</span><span class="val">Project 3: NLP Business Case</span></div>
+                <div class="model-detail"><span class="key">Group</span><span class="val">Group 4</span></div>
+                <div class="model-detail"><span class="key">Team</span><span class="val">Krzysztof Giwojno & Felipe Doria</span></div>
+                <div class="model-detail"><span class="key">Dataset</span><span class="val">Datafiniti Amazon Product Reviews (Kaggle)</span></div>
+                <div class="model-detail"><span class="key">Deployment</span><span class="val">Static site (pre-computed results)</span></div>
+                <div class="model-detail"><span class="key">Stack</span><span class="val">Python, RoBERTa, scikit-learn, Claude API</span></div>
+            </div>
+        </div>
+    `;
+}
+
+// ========================================================
+// HELPERS
+// ========================================================
+function escapeHtml(text) {
+    const div = document.createElement('div');
+    div.textContent = text;
+    return div.innerHTML;
+}
+
+function markdownToHtml(md) {
+    if (!md) return '<p>No summary available.</p>';
+    return md
+        .replace(/^### (.+)$/gm, '<h3>$1</h3>')
+        .replace(/^## (.+)$/gm, '<h2>$1</h2>')
+        .replace(/^# (.+)$/gm, '<h1>$1</h1>')
+        .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+        .replace(/\n\n/g, '</p><p>')
+        .replace(/\n/g, '<br>')
+        .replace(/^/, '<p>')
+        .replace(/$/, '</p>');
+}
+
+// ========================================================
+// INIT
+// ========================================================
+initApp();
+</script>
+</body>
+</html>
