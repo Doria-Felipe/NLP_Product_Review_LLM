@@ -69,6 +69,14 @@ if os.path.exists(summaries_path):
         summaries = json.load(f)
     print(f"  Loaded summaries_api.json")
 
+# Load local summaries
+summaries_local = {}
+summaries_local_path = os.path.join(DATA_DIR, "summaries_local_full.json")
+if os.path.exists(summaries_local_path):
+    with open(summaries_local_path, "r", encoding="utf-8") as f:
+        summaries_local = json.load(f)
+    print(f"  Loaded summaries_local_full.json")
+
 # Load product clusters
 product_clusters = None
 clusters_path = os.path.join(DATA_DIR, "product_clusters.csv")
@@ -237,11 +245,37 @@ with open(f"{OUTPUT_DIR}/reviews_sample.json", "w") as f:
     json.dump(sample_reviews, f, indent=2, ensure_ascii=False)
 print(f"  Saved reviews_sample.json ({len(sample_reviews)} reviews)")
 
+# ---------- 5. CLUSTERS_LOCAL.JSON ----------
+print("Generating clusters_local.json...")
+
+clusters_local_out = {}
+local_cluster_summaries = summaries_local.get("cluster_summaries", {})
+
+if cluster_col and local_cluster_summaries:
+    for name, group in df.groupby(cluster_col):
+        sentiment_dist = {}
+        if sentiment_col in group.columns:
+            for label, count in group[sentiment_col].value_counts().items():
+                sentiment_dist[str(label).upper()] = int(count)
+
+        clusters_local_out[name] = {
+            "review_count": int(len(group)),
+            "product_count": int(group["name"].nunique()),
+            "avg_rating": round(float(group["reviews.rating"].mean()), 2),
+            "sentiment": sentiment_dist,
+            "summary": local_cluster_summaries.get(name, "Summary not available."),
+        }
+
+with open(f"{OUTPUT_DIR}/clusters_local.json", "w") as f:
+    json.dump(clusters_local_out, f, indent=2, ensure_ascii=False)
+print(f"  Saved clusters_local.json ({len(clusters_local_out)} clusters)")
+
 # ---------- DONE ----------
 print(f"\n{'='*50}")
 print(f"Webapp data generated in {OUTPUT_DIR}/")
 print(f"  stats.json          - Dashboard overview")
-print(f"  clusters.json       - Cluster summaries")
+print(f"  clusters.json       - Cluster summaries (API)")
+print(f"  clusters_local.json - Cluster summaries (Local T5)")
 print(f"  products.json       - Product data + summaries")
 print(f"  reviews_sample.json - Sample reviews for explorer")
 print(f"\nNext: Copy webapp/ folder to your OVH hosting")

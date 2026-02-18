@@ -51,6 +51,7 @@ echo "Files to upload:"
 echo "  index.html"
 echo "  data/stats.json"
 echo "  data/clusters.json"
+echo "  data/clusters_local.json"
 echo "  data/products.json"
 echo "  data/reviews_sample.json"
 echo ""
@@ -63,6 +64,7 @@ mkdir ${OVH_PATH}/data
 put index.html ${OVH_PATH}/index.html
 put data/stats.json ${OVH_PATH}/data/stats.json
 put data/clusters.json ${OVH_PATH}/data/clusters.json
+put data/clusters_local.json ${OVH_PATH}/data/clusters_local.json
 put data/products.json ${OVH_PATH}/data/products.json
 put data/reviews_sample.json ${OVH_PATH}/data/reviews_sample.json
 quit
