@@ -1,8 +1,8 @@
-# NLP Business Case — Automated Customer Reviews Analysis
+# NLP Business Case — Automated Customer Reviews Analysis (Review Analyzer)
 
 ## Project Overview
 
-**Objective:** Build an end-to-end NLP pipeline that classifies customer sentiment, clusters products into categories, and generates AI-powered recommendation articles from Amazon product reviews.
+**Objective:** Build an end-to-end NLP pipeline that classifies customer sentiment, clusters products into categories, and generates AI-powered recommendation articles from product reviews.
 
 **Team:** Krzysztof Giwojno & Felipe Doria — Group 4
 
@@ -20,7 +20,7 @@
 |-----------|--------|------------|
 | Classification | RoBERTa fine-tuned (Yelp → Amazon) | **95.48% accuracy**, 0.791 macro F1 |
 | Clustering | TF-IDF + K-Means | **6 clusters**, silhouette 0.2364 |
-| Summarization (API) | Claude Sonnet via Anthropic API | 6 cluster + 33 product summaries, **$0.43 total** |
+| Summarization (API) | Claude Sonnet via Anthropic API | 6 cluster + 33 product summaries, **$0.43** |
 | Summarization (Local) | Flan-T5-base (250M params, GPU) | 6 cluster summaries, **$0 cost** |
 | Deployment | Static site on OVH shared hosting | **Live at giwojno.pl/review-analyzer** |
 
@@ -51,7 +51,7 @@ Raw Reviews (28,332)
 
 ## 1. Data Exploration
 
-**Notebook:** `01_data_exploration.ipynb` | **Summary:** `README_01_data_exploration_summary.md`
+**Notebook:** `notebooks/01_data_exploration.ipynb` | **Details:** `docs/README_01_data_exploration_summary.md`
 
 - 28,332 reviews, 65 unique Amazon products, 24 columns
 - Dropped 10 columns (>99% null or metadata)
@@ -64,18 +64,13 @@ Raw Reviews (28,332)
 
 ## 2. Sentiment Classification
 
-**Notebooks:** `02_review_classification_transformers.ipynb` (v1), `02_review_classification_v2.ipynb` (v2)
+**Notebooks:** `notebooks/02_review_classification_transformers.ipynb` (v1), `notebooks/02_review_classification_v2.ipynb` (v2)
+**Details:** `docs/README_02_classification_results_v2.md`
 
-**Summary:** `README_02_classification_results_v2.md`
+Two-stage training: pre-trained on 650K Yelp reviews (3-class), then fine-tuned on Amazon data with class weights.
 
-### Model: RoBERTa-base (fine-tuned)
-
-Two-stage training: pre-trained on Yelp reviews (650K samples, 3-class), then fine-tuned on Amazon data with class weights.
-
-### v1 → v2 Improvement
-
-| Metric | v1 | v2 | Improvement |
-|--------|----|----|-------------|
+| Metric | v1 | v2 | Change |
+|--------|----|----|--------|
 | Accuracy | 87.23% | **95.48%** | +8.25% |
 | Macro F1 | 0.635 | **0.791** | +0.156 |
 | Neutral F1 | 0.269 | **0.569** | +0.300 |
@@ -101,7 +96,7 @@ Only 256 errors on the test set (4.5% error rate). Most errors occur at the Posi
 
 ## 3. Product Clustering
 
-**Notebook:** `03_clustering.ipynb` | **Summary:** `README_03_clustering_summary.md`
+**Notebook:** `notebooks/03_clustering.ipynb` | **Details:** `docs/README_03_clustering_summary.md`
 
 ### Method: TF-IDF + K-Means
 
@@ -129,9 +124,9 @@ E-Readers have the highest satisfaction (95.2% positive, 1.5% negative). Batteri
 
 Two parallel approaches — API-based and local model.
 
-### 4a. API Summarization (Krzysztof)
+### 4a. API Summarization
 
-**Notebook:** `04_summarization_api.ipynb` | **Summary:** `README_04_summarization_api_summary.md`
+**Notebook:** `notebooks/04_summarization_api.ipynb` | **Details:** `docs/README_04_summarization_api_summary.md`
 
 - **Model:** Claude Sonnet (`claude-sonnet-4-20250514`) via Anthropic API
 - **Strategy:** Sample representative reviews per product (5 positive, 5 negative, 3 neutral), send with product stats to LLM
@@ -139,9 +134,9 @@ Two parallel approaches — API-based and local model.
 - **Cost:** $0.43 USD total (39 API calls, ~$0.011 per summary)
 - **Quality:** Rich, structured articles with top products, complaints, worst product, buying advice
 
-### 4b. Local Summarization (Felipe)
+### 4b. Local Summarization
 
-**Notebook:** `04_summarization_local.ipynb` | **Summary:** `README_04_summarization_local_summary.md`
+**Notebook:** `notebooks/04_summarization_local.ipynb` | **Details:** `docs/README_04_summarization_local_summary.md`
 
 - **Model:** Google Flan-T5-base (250M params) running on NVIDIA RTX 4050
 - **Strategy:** Build structured "evidence briefs" per category with product rankings and TF-IDF complaint extraction, then prompt T5 to generate articles
@@ -163,7 +158,7 @@ Two parallel approaches — API-based and local model.
 
 ## 5. Web Deployment
 
-**Location:** `webapp/` | **Summary:** `README_05_webapp_summary.md`
+**Location:** `webapp/` | **Details:** `docs/README_05_webapp_summary.md`
 
 **Live:** [https://giwojno.pl/review-analyzer/](https://giwojno.pl/review-analyzer/)
 
@@ -183,6 +178,7 @@ Static single-page app — pure HTML/CSS/JS with pre-computed JSON data. No back
 ```bash
 cd webapp
 python generate_webapp.py    # reads CSVs + JSONs → produces data/*.json
+python -m http.server 8000   # test locally at http://localhost:8000
 ./deploy.sh                  # uploads to OVH via SFTP (credentials in .env)
 ```
 
@@ -192,44 +188,71 @@ python generate_webapp.py    # reads CSVs + JSONs → produces data/*.json
 
 ```
 .
-├── 01_data_exploration.ipynb              # Data exploration and cleaning
-├── 02_review_classification_transformers.ipynb  # Classification v1 (Felipe)
-├── 02_review_classification_v2.ipynb      # Classification v2 with class weights
-├── 03_clustering.ipynb                    # TF-IDF + K-Means clustering
-├── 04_summarization_api.ipynb             # API summarization (Claude Sonnet)
-├── 04_summarization_local.ipynb           # Local summarization (Flan-T5)
+├── README.md                                       # This file
+├── NLP_Review_Analyzer_Group4.pdf                  # Presentation (PDF export)
+├── .gitignore
 │
-├── data_cleaned.csv                       # Cleaned dataset (28,332 reviews)
-├── data_with_clusters.csv                 # Reviews with cluster assignments
-├── data_with_predictions_v2.csv           # Reviews with sentiment predictions
-├── product_clusters.csv                   # Product-level cluster info (65 products)
-├── predictions.csv                        # Raw model predictions
-├── category_blog_posts.csv                # Local T5 generated articles
-├── summaries_api.json                     # API-generated summaries (for webapp)
-├── summaries_local_full.json              # Local T5 summaries (for webapp)
-├── summaries_report.md                    # Full readable summary report
+├── data/                                           # All data files
+│   ├── data_cleaned.csv                            #  Cleaned dataset (28,332 reviews)
+│   ├── data_with_clusters.csv                      #  Reviews with cluster assignments
+│   ├── data_with_predictions_v2.csv                #  Reviews with sentiment predictions
+│   ├── product_clusters.csv                        #  Product-level cluster info (65 products)
+│   ├── predictions.csv                             #  Raw model predictions
+│   ├── category_blog_posts.csv                     #  Local T5 generated articles
+│   ├── summaries_api.json                          #  API-generated summaries
+│   └── summaries_local_full.json                   #  Local T5 summaries
 │
-├── README_01_data_exploration_summary.md   # Detailed exploration findings
-├── README_02_classification_results_v2.md  # Classification metrics and analysis
-├── README_03_clustering_summary.md         # Clustering method and results
-├── README_04_summarization_api_summary.md  # API summarization details
-├── README_04_summarization_local_summary.md # Local summarization details
-├── README_05_webapp_summary.md             # Web deployment documentation
+├── notebooks/                                      # Core pipeline (run in order)
+│   ├── 01_data_exploration.ipynb                   #  Data exploration and cleaning
+│   ├── 02_review_classification_transformers.ipynb  #  Classification v1 (Felipe)
+│   ├── 02_review_classification_v2.ipynb           #  Classification v2 with class weights
+│   ├── 03_clustering.ipynb                         #  TF-IDF + K-Means clustering
+│   ├── 04_summarization_api.ipynb                  #  API summarization (Claude Sonnet)
+│   └── 04_summarization_local.ipynb                #  Local summarization (Flan-T5)
 │
-├── webapp/                                # Static web application
-│   ├── index.html                         # Single-page app
-│   ├── generate_webapp.py                 # Data generation script
-│   ├── deploy.sh                          # SFTP deployment script
-│   ├── README.md                          # Webapp setup instructions
-│   └── data/                              # Generated JSON files
-│       ├── stats.json
-│       ├── clusters.json
-│       ├── clusters_local.json
-│       ├── products.json
-│       └── reviews_sample.json
+├── docs/                                           # Documentation and reports
+│   ├── NLP_Product_Review_Project_report_basic.pdf #  PDF report (basic)
+│   ├── NLP_Product_Review_Project_report_full.pdf  #  PDF report (full with charts)
+│   ├── NLP_Review_Analyzer_Group4.pptx             #  Presentation source file
+│   ├── README_01_data_exploration_summary.md       #  Exploration findings
+│   ├── README_02_classification_results_v2.md      #  Classification metrics
+│   ├── README_03_clustering_summary.md             #  Clustering results
+│   ├── README_04_summarization_api_summary.md      #  API summarization details
+│   ├── README_04_summarization_local_summary.md    #  Local summarization details
+│   ├── README_05_webapp_summary.md                 #  Web deployment docs
+│   └── summaries_report.md                         #  Full readable summary report
 │
-├── .env                                   # API keys + deployment credentials (git-ignored)
-└── .gitignore
+├── extras/                                         # Support scripts and presentation assets
+│   ├── generate_cluster_scatter.py                 #  Cluster visualization script
+│   ├── generate_cluster_scatter_half.py            #  Cluster viz (half-page variant)
+│   ├── cluster_scatter.png                         #  Generated cluster visualization
+│   ├── demo_script.md                              #  Demo recording script
+│   └── slides/                                     #  Generated slide visuals
+│       ├── slide02_before_after.png
+│       ├── slide03_funnel.png
+│       ├── slide04_methods.png
+│       ├── slide05_classification.png
+│       ├── slide06_confusion.png
+│       ├── slide07_silhouette.png
+│       ├── slide08_clusters.png
+│       ├── slide09_comparison.png
+│       ├── slide10b_bars.png
+│       ├── slide10b_cards.png
+│       └── slide11_qr.png
+│
+└── webapp/                                         # Deployed web application
+    ├── index.html                                  #  Single-page app
+    ├── generate_webapp.py                          #  Data generation script
+    ├── deploy.sh                                   #  SFTP deployment script
+    ├── app_gradio.py                               #  Gradio app (Felipe)
+    ├── README.md                                   #  Webapp setup instructions
+    ├── .env                                        #  Deployment credentials (git-ignored)
+    └── data/                                       #  Generated JSON files
+        ├── stats.json
+        ├── clusters.json
+        ├── clusters_local.json
+        ├── products.json
+        └── reviews_sample.json
 ```
 
 ---
@@ -267,6 +290,8 @@ cp .env.example .env   # Add your API keys
 ```
 
 ### Run Notebooks (in order)
+
+Run notebooks in order from `notebooks/`. Each notebook reads from `data/` and writes back to `data/`. Classification and local summarization require a CUDA-capable GPU. API summarization requires an Anthropic API key in `.env`.
 
 1. `01_data_exploration.ipynb` — produces `data_cleaned.csv`
 2. `02_review_classification_v2.ipynb` — produces `data_with_predictions_v2.csv` (requires GPU)
