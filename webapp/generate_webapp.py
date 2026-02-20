@@ -26,7 +26,7 @@ import pandas as pd
 import numpy as np
 
 # ---------- CONFIG ----------
-DATA_DIR = os.path.join(os.path.dirname(__file__), "..")  # project root (parent of webapp/)
+DATA_DIR = os.path.join(os.path.dirname(__file__), "..", "data")  # project root (parent of webapp/)
 OUTPUT_DIR = os.path.join(os.path.dirname(__file__), "data")
 REVIEWS_SAMPLE_SIZE = 200  # reviews to include in explorer (per cluster, capped)
 
