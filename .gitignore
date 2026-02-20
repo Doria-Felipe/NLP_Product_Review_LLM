@@ -2,3 +2,4 @@
 models/
 .DS_Store
 t5-catblog/
+.ipynb_checkpoints

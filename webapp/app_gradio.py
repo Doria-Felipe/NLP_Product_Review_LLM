@@ -173,7 +173,7 @@ def build_full_markdown(brief: str) -> str:
 
     if worst["name"]:
         md.append(
-            f"⚠️ **{worst['name']}**  \n"
+            f"**{worst['name']}**  \n"
             f"Rating: {worst['rating']} • Reviews: {worst['reviews']}  \n"
             f"Complaint signal: {prettify_reason(worst['reason'])}"
         )
